@@ -11,5 +11,5 @@ Mappen
 ------
 
 - [www](/www)
-- [docs : 02](/docs)
+- [docs](/docs)
 
