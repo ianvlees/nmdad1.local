@@ -1,0 +1,172 @@
+/* ==========================================================================
+   Font styles
+   ========================================================================== */
+@font-face {
+    font-family: SourceSansPro;
+    src: url('assets/fonts/SourceSansPro-Regular.otf');
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('assets/fonts/SourceSansPro-Bold.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('assets/fonts/SourceSansPro-Italic.otf');
+    font-style: italic;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('assets/fonts/SourceSansPro-BoldItalic.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('assets/fonts/SourceSansPro-Light.otf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url('assets/fonts/SourceSansPro-LightItalic.otf');
+    font-style: italic;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, p, li, div, input {
+    font-family: SourceSansPro , sans-serif;
+    color: #fff;
+    letter-spacing: 0.02em;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    max-height: 80%;
+    font-weight: black;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+h1 > span {
+    margin-top: 10px;
+    font-size: 16px;
+    
+}
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    max-height: 80%;
+    font-weight: black;
+    width: 100%;
+    display: block;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+p {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.header-homenav li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.header-homenav li a {
+    font-size: 26px;
+    font-weight: 400;
+    color: #a499b2;
+    transition: all 200ms ease-in-out 0s;
+}
+.header-homenav li a:hover {
+    color: #564781;
+    margin-left: 5px;
+}
+
+.login-inputs input {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #ffffff;
+    padding-top: 5px;
+}
+.login-inputs input::placeholder {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #cbbadc;
+}
+.login-inputs__full label {
+    font-size: 8px;
+    padding-bottom: 10px;
+    color: #cbbadc;
+    font-weight: lighter;
+    transition: all 200ms ease-in-out 0s;
+}
+.login-button {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+.login-register p {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(219, 218, 218);
+}
+.login-register p > span {
+    font-style: italic;
+    color: rgb(219, 218, 218);
+    transition: all 100ms ease-in-out 0s;
+}
+.login-register p > span:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 100ms ease-in-out 0s;
+}
+
+
+
+p.home-intro {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    z-index: 30;
+}
+.home-info p {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    font-size: 10px;
+}
+
+.home-button1, .home-button2, .error-button {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+}
+
+.home-button2 {
+    color: #8f6ecb;
+}
+
+
+
+#error {
+    font-size: 10rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.error_text {
+    margin: 25% 15% 0;
+}
+
+.error_text_title {
+    font-weight: bold;
+}
