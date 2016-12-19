@@ -236,7 +236,10 @@ title   : "NEUZEN APP"
         </div>
         
     </div>
-    </div><!-- End of container -->
+    </div>
+    
+    
+    <!-- End of container -->
     <div class="mockup-box">
         <img class="mockup2" src="css/images/home/mockup2.png" alt="mockup">
     </div>
