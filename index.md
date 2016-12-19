@@ -6,10 +6,11 @@ title   : "NEUZEN APP"
 <div class="container">
     <div id="preloader">
         <div class="image-loader">
-		<div class="rect">
-			<div class="dot d_i"></div>
-			<div class="dot d_ii"></div>
-		</div>
+            <div class="rect">
+                <div class="dot d_i"></div>
+                <div class="dot d_ii"></div>
+            </div>
+        </div>
 	</div>
 	<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
 		<defs>
@@ -20,7 +21,7 @@ title   : "NEUZEN APP"
 			</filter>
 		</defs>
 	</svg>
-    </div>
+    
     <div class="home-overlay"></div>
     <!----------------------- Header ----------------------->
     <div class="header-homenav">
@@ -236,8 +237,9 @@ title   : "NEUZEN APP"
         </div>
         
     </div>
-    </div>
-    
     <div class="mockup-box">
         <img class="mockup2" src="css/images/home/mockup2.png" alt="mockup">
     </div>
+</div>
+    
+    
