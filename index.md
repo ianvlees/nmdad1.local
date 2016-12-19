@@ -1,6 +1,6 @@
 ---
 layout  : default
-title   : "New Media Design & Development I"
+title   : "NEUZEN APP"
 ---
 
 SLA
