@@ -1,6 +1,5 @@
 ---
 layout  : default
-title   : "NEUZEN APP"
 ---
 
 <div class="container">
@@ -11,16 +10,17 @@ title   : "NEUZEN APP"
                 <div class="dot d_ii"></div>
             </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -5" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+            </defs>
+	   </svg>
 	</div>
-	<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-		<defs>
-			<filter id="goo">
-				<feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
-				<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -5" result="goo" />
-				<feBlend in="SourceGraphic" in2="goo" />
-			</filter>
-		</defs>
-	</svg>
+	
     
     <div class="home-overlay"></div>
     <!----------------------- Header ----------------------->
