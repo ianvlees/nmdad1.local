@@ -104,12 +104,12 @@ $(document).ready(function(){
     
     // ----------------- HAMBURGER-HOMENAV -----------
     
-    $('#nav-icon3').toggle(function(){
-		$('.header-homenav').style.display = "block";
+    $('#nav-icon3').click(function(){
+		$('.header-homenav').toggle();
 	});
     
     $('.header-homenav ul li').click(function(){
-		$('.header-homenav').style.display = "none";
+		$('.header-homenav').toggle();
 	});
     
     // ----------------- MOBILE-LOGIN ----------------
