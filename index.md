@@ -24,7 +24,7 @@ layout  : default
     
     <div class="home-overlay"></div>
     <!----------------------- Header ----------------------->
-    <div class="header-homenav">
+    <div class="header-homenav" style="display:none">
         <ul>
             <li><a style="color:#564781" href="#">HOME</a></li>
             <li><a href="app.html">APP</a></li>
