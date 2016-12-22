@@ -1,0 +1,13 @@
+#contact-form {
+    input {
+        border: 0.7px solid #dedede;
+        padding: 5px;
+        font-weight: 200;
+        font-size: 17px;
+        color:#dedede;
+    }
+    input:active {
+        border: 0.7px solid #7323DB;
+        color: #7323DB;
+    }
+}
