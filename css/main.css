@@ -284,6 +284,20 @@ p {
   font-weight: bold;
 }
 
+@media (min-width: 992px) {
+  /* line 187, ../_sass/base/_typography.scss */
+  #contact-header {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 192, ../_sass/base/_typography.scss */
+  #contact-p {
+    font-size: 16px;
+  }
+}
+
 /* line 1, ../_sass/base/_preloader.scss */
 #preloader {
   position: fixed;
