@@ -1,0 +1,107 @@
+.mobile-login {
+    padding: 20px;
+    width: 100%;
+    
+    
+    display: none;
+}
+.login-logo {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#login-logo {
+    width: 45%;
+    margin-top: 40px;
+}
+
+.login-inputs {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+.login-inputs input {
+    float: left;
+    width: 80%;
+    display: block;
+    margin: auto;
+    
+    background: none;
+    border: none;
+   
+}
+#user, #pass {
+    width: 20%;
+    float: left;
+    height: 39px;
+    display: flex;
+}
+#user-logo, #pass-logo {
+    height: 20px;
+    align-self: flex-end;
+    
+}
+
+.login-inputs__full {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+    transition: all 100ms ease-in-out 0s;
+}
+#input2 {
+    padding-top: 20px;
+}
+.login-border1, .login-border2 {
+    transition: all 500ms ease-in-out 0s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    margin: auto;
+    padding-top: 10px;
+    width: 1px;
+    clear: both;
+}
+.login-border__extra {
+    transition: all 500ms ease-in-out 0s;
+    border-bottom: 1px solid #ffffff;
+    
+    width: 100%;
+    
+    clear: both;
+}
+
+.login-stroke {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #977dd1;
+    clear: both;
+}
+.label1, .label2 {
+    transition: all 500ms ease-in-out 0s;
+    visibility: hidden;
+}
+.label-display {
+    transition: all 500ms ease-in-out 0s;
+    visibility: visible;
+}
+.login-buttonwrapper {
+    width: 100%;
+    margin-top: 40px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.login-register {
+    margin-top: 40px;
+}
+
+

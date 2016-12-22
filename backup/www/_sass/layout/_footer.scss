@@ -1,0 +1,44 @@
+footer {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    @media #{$small2}{
+        min-height: 87px;
+    }
+    @media #{$medium}{
+        min-height: 18vh;
+    }
+    
+    
+}
+#footer-img {
+    min-width: 1920px;
+    height: 320px;
+    display: none;
+    @media #{$medium}{
+        display: block;
+        width: 100%;
+    }
+}
+#footer-img2 {
+    min-width: 500px;
+    @media #{$medium}{
+        display: none;
+    }
+    
+}
+.footer-white {
+    width: 100%;
+    min-height: 10px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    @media #{$small2}{
+        min-height: 30px;
+    }
+    @media #{$medium}{
+        min-height: 30px;
+    }
+}
