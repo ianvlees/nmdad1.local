@@ -5,9 +5,11 @@
         font-weight: 200;
         font-size: 17px;
         color:#dedede;
+        margin-top: 10px;
     }
-    input:active {
+    input:focus {
         border: 0.7px solid #7323DB;
         color: #7323DB;
     }
+    
 }

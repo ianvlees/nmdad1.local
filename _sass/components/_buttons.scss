@@ -62,3 +62,12 @@
     cursor: pointer;
     transition: all 100ms ease-in-out 0s;
 }
+#contact-button {
+    background-color: #7323DB;
+    border: 2px solid #7323DB;
+    color: #fff;
+    transition: all 100ms ease-in-out 0s;
+}
+#contact-button:hover {
+    border: 2px solid #564781;
+}

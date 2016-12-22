@@ -2173,6 +2173,19 @@ footer {
   transition: all 100ms ease-in-out 0s;
 }
 
+/* line 65, ../_sass/components/_buttons.scss */
+#contact-button {
+  background-color: #7323DB;
+  border: 2px solid #7323DB;
+  color: #fff;
+  transition: all 100ms ease-in-out 0s;
+}
+
+/* line 71, ../_sass/components/_buttons.scss */
+#contact-button:hover {
+  border: 2px solid #564781;
+}
+
 /* line 1, ../_sass/pages/_home.scss */
 #mobile-height {
   padding-top: 100px;
@@ -2280,9 +2293,10 @@ footer {
   font-weight: 200;
   font-size: 17px;
   color: #dedede;
+  margin-top: 10px;
 }
-/* line 9, ../_sass/pages/_contact.scss */
-#contact-form input:active {
+/* line 10, ../_sass/pages/_contact.scss */
+#contact-form input:focus {
   border: 0.7px solid #7323DB;
   color: #7323DB;
 }
