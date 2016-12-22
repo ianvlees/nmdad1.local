@@ -644,7 +644,6 @@ p {
   display: none !important;
 }
 
-
 @media print {
   /* line 194, ../_sass/layout/_grid.scss */
   .visible-print-inline {
@@ -2359,12 +2358,6 @@ body {
 }
 
 /* line 20, ../_sass/themes/_theme.scss */
-header {
-  width: 100%;
-  overflow: auto;
-}
-
-/* line 24, ../_sass/themes/_theme.scss */
 .container {
   width: 100%;
   overflow: auto;
@@ -2372,19 +2365,19 @@ header {
   margin: auto;
 }
 
-/* line 32, ../_sass/themes/_theme.scss */
+/* line 28, ../_sass/themes/_theme.scss */
 .hidden {
   display: none;
 }
 
 /* MAP */
-/* line 38, ../_sass/themes/_theme.scss */
+/* line 34, ../_sass/themes/_theme.scss */
 #map {
   width: 100%;
   height: 100vh;
 }
 
-/* line 42, ../_sass/themes/_theme.scss */
+/* line 38, ../_sass/themes/_theme.scss */
 svg {
   fill: #fff;
 }
