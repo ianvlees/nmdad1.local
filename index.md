@@ -102,7 +102,7 @@ layout  : default
     
     
     <!----------------------- Login ------------------------>
-    <div class="mobile-login">
+    <div class="mobile-login" style="display:none">
         <div class="login-logo">
             <svg version="1.1" id="login-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
