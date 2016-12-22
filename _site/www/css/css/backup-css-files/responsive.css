@@ -1,0 +1,49 @@
+@media (min-width: 992px) {
+    .home-part2 {
+        display: none;
+    }
+    h1 {
+        font-size: 28px;
+        font-weight: 900;
+    }
+    h1 > span {
+        font-size: 28px;
+        font-weight: 900; 
+    }
+    .home-intro {
+        font-size: 16px;
+        line-height: 1.5em;
+        font-weight: 100;
+    }
+    
+    .mockup-box {
+        display: block;
+    }
+    
+    footer {
+        min-height: 32vh;
+        /*height: 250px;*/
+    }
+    .container {
+        min-height: 68vh;
+    }
+    #footer-img2 {
+        display: none;
+    }
+    #footer-img {
+        display: block;
+        width: 100%;
+    }
+    .home-stroke {
+        display: none;
+    }
+    header {
+        height: 80px;
+    }
+    #nav-icon3, .header-logo {
+        display: none;
+    }
+    #logo-desktop {
+        display: block;
+    }
+}

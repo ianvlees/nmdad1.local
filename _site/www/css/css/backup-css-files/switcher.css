@@ -1,0 +1,90 @@
+.checkBoxs,
+.checkBoxs .checkBox,
+.checkBoxs .checkBox label{
+  float: left;
+  position: relative;
+}
+
+.checkBoxs,
+.checkBoxs .checkBox label{
+  width: 100%;
+}
+
+.checkBoxs .checkBox{
+  width: 110px;
+  padding:0 20px;
+  margin:15px 0;
+}
+
+.checkBoxs .checkBox input{
+  display: none;
+}
+
+.checkBoxs .checkBox label,
+.checkBoxs .checkBox label .circle{
+  transition:500ms cubic-bezier(.4,0,.2,1);
+  -webkit-transition:500ms cubic-bezier(.4,0,.2,1);
+  -ms-transition:500ms cubic-bezier(.4,0,.2,1);
+}
+
+.checkBoxs .checkBox label{
+  height: 25px;
+  background: #ABA9AB;
+  border-radius: 25px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  cursor: pointer;
+  
+}
+
+.checkBoxs .checkBox label .circle{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -7.5px;
+  left: -5px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+}
+
+.checkBoxs .checkBox.active label{
+  background: #c4c178;
+}
+
+.checkBoxs .checkBox.active label .circle{
+  background: #ccd32b;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+}
+
+
+.materialContainer {
+  width: 100%;
+  max-width: 330px;
+  padding: 0 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+}
+
+.row{
+  margin:0 -20px;
+}
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
