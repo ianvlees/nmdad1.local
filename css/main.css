@@ -1,47 +1,47 @@
 @media (min-width: 992px) {
-  /* line 1, ../scss/abstracts/_mixins.scss */
+  /* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/abstracts/_mixins.scss */
   .home-part2 {
     display: none;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 6, ../scss/abstracts/_mixins.scss */
+  /* line 6, D:/HPgebruiker/Documents/nmdad1.local/_sass/abstracts/_mixins.scss */
   .mockup-box {
     display: block;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 11, ../scss/abstracts/_mixins.scss */
+  /* line 11, D:/HPgebruiker/Documents/nmdad1.local/_sass/abstracts/_mixins.scss */
   header {
     height: 80px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 16, ../scss/abstracts/_mixins.scss */
+  /* line 16, D:/HPgebruiker/Documents/nmdad1.local/_sass/abstracts/_mixins.scss */
   .home-stroke {
     display: none;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 21, ../scss/abstracts/_mixins.scss */
+  /* line 21, D:/HPgebruiker/Documents/nmdad1.local/_sass/abstracts/_mixins.scss */
   footer {
     min-height: 32vh;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 26, ../scss/abstracts/_mixins.scss */
+  /* line 26, D:/HPgebruiker/Documents/nmdad1.local/_sass/abstracts/_mixins.scss */
   .container {
     min-height: 60vh;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 31, ../scss/abstracts/_mixins.scss */
+  /* line 31, D:/HPgebruiker/Documents/nmdad1.local/_sass/abstracts/_mixins.scss */
   #nav-icon3, .header-logo {
     display: none;
   }
@@ -84,24 +84,24 @@
   font-weight: 300;
 }
 
-/* line 32, ../scss/base/_typography.scss */
+/* line 32, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 35, ../scss/base/_typography.scss */
+/* line 35, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 ul, li {
   list-style: none;
 }
 
-/* line 39, ../scss/base/_typography.scss */
+/* line 39, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 h1, h2, h3, h4, p, li, div, input {
   font-family: SourceSansPro , sans-serif;
   color: #fff;
   letter-spacing: 0.02em;
 }
 
-/* line 44, ../scss/base/_typography.scss */
+/* line 44, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 h1 {
   font-size: 40px;
   font-weight: 800;
@@ -114,27 +114,27 @@ h1 {
   -webkit-margin-end: 0px;
 }
 @media (min-width: 992px) {
-  /* line 44, ../scss/base/_typography.scss */
+  /* line 44, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
   h1 {
     font-size: 28px;
     font-weight: 900;
   }
 }
 
-/* line 59, ../scss/base/_typography.scss */
+/* line 59, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 h1 > span {
   margin-top: 10px;
   font-size: 16px;
 }
 @media (min-width: 992px) {
-  /* line 59, ../scss/base/_typography.scss */
+  /* line 59, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
   h1 > span {
     font-size: 28px;
     font-weight: 900;
   }
 }
 
-/* line 67, ../scss/base/_typography.scss */
+/* line 67, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 h2 {
   font-size: 20px;
   font-weight: 800;
@@ -149,20 +149,20 @@ h2 {
   -webkit-margin-end: 0px;
 }
 
-/* line 80, ../scss/base/_typography.scss */
+/* line 80, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 p {
   font-size: 12px;
   font-weight: 100;
   line-height: 20px;
 }
 
-/* line 86, ../scss/base/_typography.scss */
+/* line 86, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .header-homenav li {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-/* line 90, ../scss/base/_typography.scss */
+/* line 90, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .header-homenav li a {
   font-size: 26px;
   font-weight: 400;
@@ -170,13 +170,13 @@ p {
   transition: all 200ms ease-in-out 0s;
 }
 
-/* line 96, ../scss/base/_typography.scss */
+/* line 96, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .header-homenav li a:hover {
   color: #564781;
   margin-left: 5px;
 }
 
-/* line 101, ../scss/base/_typography.scss */
+/* line 101, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .login-inputs input {
   font-size: 12px;
   font-weight: lighter;
@@ -184,14 +184,14 @@ p {
   padding-top: 5px;
 }
 
-/* line 107, ../scss/base/_typography.scss */
+/* line 107, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .login-inputs input::placeholder {
   font-size: 12px;
   font-weight: lighter;
   color: #cbbadc;
 }
 
-/* line 112, ../scss/base/_typography.scss */
+/* line 112, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .login-inputs__full label {
   font-size: 8px;
   padding-bottom: 10px;
@@ -200,7 +200,7 @@ p {
   transition: all 200ms ease-in-out 0s;
 }
 
-/* line 119, ../scss/base/_typography.scss */
+/* line 119, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .login-button {
   text-transform: uppercase;
   font-weight: normal;
@@ -209,28 +209,28 @@ p {
   color: #ffffff;
 }
 
-/* line 126, ../scss/base/_typography.scss */
+/* line 126, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .login-register p {
   text-align: center;
   font-weight: 100;
   color: #dbdada;
 }
 
-/* line 131, ../scss/base/_typography.scss */
+/* line 131, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .login-register p > span {
   font-style: italic;
   color: #dbdada;
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 136, ../scss/base/_typography.scss */
+/* line 136, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .login-register p > span:hover {
   color: white;
   cursor: pointer;
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 144, ../scss/base/_typography.scss */
+/* line 144, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .home-intro {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -240,13 +240,13 @@ p {
   font-size: 14px;
 }
 @media (min-width: 992px) {
-  /* line 144, ../scss/base/_typography.scss */
+  /* line 144, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
   .home-intro {
     font-size: 16px;
   }
 }
 
-/* line 155, ../scss/base/_typography.scss */
+/* line 155, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .home-info p {
   display: block;
   margin: auto;
@@ -254,7 +254,7 @@ p {
   font-size: 10px;
 }
 
-/* line 162, ../scss/base/_typography.scss */
+/* line 162, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .home-button1, .home-button2, .error-button {
   text-transform: uppercase;
   font-weight: normal;
@@ -262,29 +262,29 @@ p {
   text-align: center;
 }
 
-/* line 169, ../scss/base/_typography.scss */
+/* line 169, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .home-button2 {
   color: #8f6ecb;
 }
 
-/* line 173, ../scss/base/_typography.scss */
+/* line 173, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 #error {
   font-size: 10rem;
   font-weight: 900;
   text-align: center;
 }
 
-/* line 179, ../scss/base/_typography.scss */
+/* line 179, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .error_text {
   margin: 25% 15% 0;
 }
 
-/* line 183, ../scss/base/_typography.scss */
+/* line 183, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_typography.scss */
 .error_text_title {
   font-weight: bold;
 }
 
-/* line 1, ../scss/base/_preloader.scss */
+/* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
 #preloader {
   position: fixed;
   top: 0;
@@ -298,7 +298,7 @@ p {
   justify-content: center;
 }
 
-/* line 14, ../scss/base/_preloader.scss */
+/* line 14, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
 .image-loader {
   padding: 5% 0;
   height: 80px;
@@ -308,7 +308,7 @@ p {
   filter: url("#goo");
 }
 
-/* line 23, ../scss/base/_preloader.scss */
+/* line 23, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
 .image-loader .rect {
   position: relative;
   height: 80px;
@@ -317,20 +317,20 @@ p {
 }
 
 @keyframes rotating {
-  /* line 31, ../scss/base/_preloader.scss */
+  /* line 31, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
-  /* line 35, ../scss/base/_preloader.scss */
+  /* line 35, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
-/* line 40, ../scss/base/_preloader.scss */
+/* line 40, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
 .image-loader .rect .dot {
   position: absolute;
   left: 28px;
@@ -341,35 +341,35 @@ p {
   background-color: #7323DB;
 }
 
-/* line 49, ../scss/base/_preloader.scss */
+/* line 49, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
 .image-loader .rect .dot.d_i {
   animation: dot_i 1.5s ease-in-out infinite;
 }
 
-/* line 52, ../scss/base/_preloader.scss */
+/* line 52, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
 .image-loader .rect .dot.d_ii {
   animation: dot_ii 1.5s ease-in-out infinite;
 }
 
 @keyframes dot_i {
-  /* line 57, ../scss/base/_preloader.scss */
+  /* line 57, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
   0%, 100% {
     transform: translateY(0) scale(1);
   }
 
-  /* line 60, ../scss/base/_preloader.scss */
+  /* line 60, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
   50% {
     transform: translateY(20px) scale(0.8);
   }
 }
 
 @keyframes dot_ii {
-  /* line 66, ../scss/base/_preloader.scss */
+  /* line 66, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
   0%, 100% {
     transform: translateY(0) scale(1);
   }
 
-  /* line 69, ../scss/base/_preloader.scss */
+  /* line 69, D:/HPgebruiker/Documents/nmdad1.local/_sass/base/_preloader.scss */
   50% {
     transform: translateY(-20px) scale(0.8);
   }
@@ -379,7 +379,7 @@ p {
   width: device-width;
 }
 
-/* line 7, ../scss/layout/_grid.scss */
+/* line 7, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .visible-xs,
 .visible-sm,
 .visible-md,
@@ -387,7 +387,7 @@ p {
   display: none !important;
 }
 
-/* line 21, ../scss/layout/_grid.scss */
+/* line 21, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block,
@@ -404,262 +404,262 @@ p {
 }
 
 @media (max-width: 767px) {
-  /* line 25, ../scss/layout/_grid.scss */
+  /* line 25, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-xs {
     display: block !important;
   }
 
-  /* line 28, ../scss/layout/_grid.scss */
+  /* line 28, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   table.visible-xs {
     display: table;
   }
 
-  /* line 31, ../scss/layout/_grid.scss */
+  /* line 31, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   tr.visible-xs {
     display: table-row !important;
   }
 
-  /* line 35, ../scss/layout/_grid.scss */
+  /* line 35, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 40, ../scss/layout/_grid.scss */
+  /* line 40, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-xs-block {
     display: block !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 45, ../scss/layout/_grid.scss */
+  /* line 45, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-xs-inline {
     display: inline !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 50, ../scss/layout/_grid.scss */
+  /* line 50, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 55, ../scss/layout/_grid.scss */
+  /* line 55, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-sm {
     display: block !important;
   }
 
-  /* line 58, ../scss/layout/_grid.scss */
+  /* line 58, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   table.visible-sm {
     display: table;
   }
 
-  /* line 61, ../scss/layout/_grid.scss */
+  /* line 61, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   tr.visible-sm {
     display: table-row !important;
   }
 
-  /* line 65, ../scss/layout/_grid.scss */
+  /* line 65, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 70, ../scss/layout/_grid.scss */
+  /* line 70, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-sm-block {
     display: block !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 75, ../scss/layout/_grid.scss */
+  /* line 75, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-sm-inline {
     display: inline !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 80, ../scss/layout/_grid.scss */
+  /* line 80, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 85, ../scss/layout/_grid.scss */
+  /* line 85, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-md {
     display: block !important;
   }
 
-  /* line 88, ../scss/layout/_grid.scss */
+  /* line 88, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   table.visible-md {
     display: table;
   }
 
-  /* line 91, ../scss/layout/_grid.scss */
+  /* line 91, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   tr.visible-md {
     display: table-row !important;
   }
 
-  /* line 95, ../scss/layout/_grid.scss */
+  /* line 95, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 100, ../scss/layout/_grid.scss */
+  /* line 100, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-md-block {
     display: block !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 105, ../scss/layout/_grid.scss */
+  /* line 105, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-md-inline {
     display: inline !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 110, ../scss/layout/_grid.scss */
+  /* line 110, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 115, ../scss/layout/_grid.scss */
+  /* line 115, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-lg {
     display: block !important;
   }
 
-  /* line 118, ../scss/layout/_grid.scss */
+  /* line 118, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   table.visible-lg {
     display: table;
   }
 
-  /* line 121, ../scss/layout/_grid.scss */
+  /* line 121, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   tr.visible-lg {
     display: table-row !important;
   }
 
-  /* line 125, ../scss/layout/_grid.scss */
+  /* line 125, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 130, ../scss/layout/_grid.scss */
+  /* line 130, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-lg-block {
     display: block !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 135, ../scss/layout/_grid.scss */
+  /* line 135, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-lg-inline {
     display: inline !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 140, ../scss/layout/_grid.scss */
+  /* line 140, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-lg-inline-block {
     display: inline-block !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 145, ../scss/layout/_grid.scss */
+  /* line 145, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .hidden-xs {
     display: none !important;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 150, ../scss/layout/_grid.scss */
+  /* line 150, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .hidden-sm {
     display: none !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 155, ../scss/layout/_grid.scss */
+  /* line 155, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .hidden-md {
     display: none !important;
   }
 }
 @media (min-width: 1200px) {
-  /* line 160, ../scss/layout/_grid.scss */
+  /* line 160, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .hidden-lg {
     display: none !important;
   }
 }
-/* line 164, ../scss/layout/_grid.scss */
+/* line 164, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .visible-print {
   display: none !important;
 }
 
 @media print {
-  /* line 168, ../scss/layout/_grid.scss */
+  /* line 168, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-print {
     display: block !important;
   }
 
-  /* line 171, ../scss/layout/_grid.scss */
+  /* line 171, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   table.visible-print {
     display: table;
   }
 
-  /* line 174, ../scss/layout/_grid.scss */
+  /* line 174, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   tr.visible-print {
     display: table-row !important;
   }
 
-  /* line 178, ../scss/layout/_grid.scss */
+  /* line 178, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   th.visible-print,
   td.visible-print {
     display: table-cell !important;
   }
 }
-/* line 182, ../scss/layout/_grid.scss */
+/* line 182, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .visible-print-block {
   display: none !important;
 }
 
 @media print {
-  /* line 186, ../scss/layout/_grid.scss */
+  /* line 186, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-print-block {
     display: block !important;
   }
 }
-/* line 190, ../scss/layout/_grid.scss */
+/* line 190, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .visible-print-inline {
   display: none !important;
 }
 
 @media print {
-  /* line 194, ../scss/layout/_grid.scss */
+  /* line 194, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-print-inline {
     display: inline !important;
   }
 }
-/* line 198, ../scss/layout/_grid.scss */
+/* line 198, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .visible-print-inline-block {
   display: none !important;
 }
 
 @media print {
-  /* line 202, ../scss/layout/_grid.scss */
+  /* line 202, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .visible-print-inline-block {
     display: inline-block !important;
   }
 }
 @media print {
-  /* line 207, ../scss/layout/_grid.scss */
+  /* line 207, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .hidden-print {
     display: none !important;
   }
 }
-/* line 213, ../scss/layout/_grid.scss */
+/* line 213, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .row {
   margin-left: -15px;
   margin-right: -15px;
 }
 
-/* line 217, ../scss/layout/_grid.scss */
+/* line 217, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
@@ -667,1050 +667,1050 @@ p {
   padding-right: 15px;
 }
 
-/* line 223, ../scss/layout/_grid.scss */
+/* line 223, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
 }
 
-/* line 226, ../scss/layout/_grid.scss */
+/* line 226, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-12 {
   width: 100%;
 }
 
-/* line 229, ../scss/layout/_grid.scss */
+/* line 229, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-11 {
   width: 91.66666667%;
 }
 
-/* line 232, ../scss/layout/_grid.scss */
+/* line 232, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-10 {
   width: 83.33333333%;
 }
 
-/* line 235, ../scss/layout/_grid.scss */
+/* line 235, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-9 {
   width: 75%;
 }
 
-/* line 238, ../scss/layout/_grid.scss */
+/* line 238, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-8 {
   width: 66.66666667%;
 }
 
-/* line 241, ../scss/layout/_grid.scss */
+/* line 241, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-7 {
   width: 58.33333333%;
 }
 
-/* line 244, ../scss/layout/_grid.scss */
+/* line 244, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-6 {
   width: 50%;
 }
 
-/* line 247, ../scss/layout/_grid.scss */
+/* line 247, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-5 {
   width: 41.66666667%;
 }
 
-/* line 250, ../scss/layout/_grid.scss */
+/* line 250, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-4 {
   width: 33.33333333%;
 }
 
-/* line 253, ../scss/layout/_grid.scss */
+/* line 253, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-3 {
   width: 25%;
 }
 
-/* line 256, ../scss/layout/_grid.scss */
+/* line 256, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-2 {
   width: 16.66666667%;
 }
 
-/* line 259, ../scss/layout/_grid.scss */
+/* line 259, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-1 {
   width: 8.33333333%;
 }
 
-/* line 262, ../scss/layout/_grid.scss */
+/* line 262, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-12 {
   right: 100%;
 }
 
-/* line 265, ../scss/layout/_grid.scss */
+/* line 265, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-11 {
   right: 91.66666667%;
 }
 
-/* line 268, ../scss/layout/_grid.scss */
+/* line 268, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-10 {
   right: 83.33333333%;
 }
 
-/* line 271, ../scss/layout/_grid.scss */
+/* line 271, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-9 {
   right: 75%;
 }
 
-/* line 274, ../scss/layout/_grid.scss */
+/* line 274, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-8 {
   right: 66.66666667%;
 }
 
-/* line 277, ../scss/layout/_grid.scss */
+/* line 277, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-7 {
   right: 58.33333333%;
 }
 
-/* line 280, ../scss/layout/_grid.scss */
+/* line 280, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-6 {
   right: 50%;
 }
 
-/* line 283, ../scss/layout/_grid.scss */
+/* line 283, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-5 {
   right: 41.66666667%;
 }
 
-/* line 286, ../scss/layout/_grid.scss */
+/* line 286, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-4 {
   right: 33.33333333%;
 }
 
-/* line 289, ../scss/layout/_grid.scss */
+/* line 289, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-3 {
   right: 25%;
 }
 
-/* line 292, ../scss/layout/_grid.scss */
+/* line 292, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-2 {
   right: 16.66666667%;
 }
 
-/* line 295, ../scss/layout/_grid.scss */
+/* line 295, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-1 {
   right: 8.33333333%;
 }
 
-/* line 298, ../scss/layout/_grid.scss */
+/* line 298, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-pull-0 {
   right: auto;
 }
 
-/* line 301, ../scss/layout/_grid.scss */
+/* line 301, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-12 {
   left: 100%;
 }
 
-/* line 304, ../scss/layout/_grid.scss */
+/* line 304, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-11 {
   left: 91.66666667%;
 }
 
-/* line 307, ../scss/layout/_grid.scss */
+/* line 307, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-10 {
   left: 83.33333333%;
 }
 
-/* line 310, ../scss/layout/_grid.scss */
+/* line 310, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-9 {
   left: 75%;
 }
 
-/* line 313, ../scss/layout/_grid.scss */
+/* line 313, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-8 {
   left: 66.66666667%;
 }
 
-/* line 316, ../scss/layout/_grid.scss */
+/* line 316, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-7 {
   left: 58.33333333%;
 }
 
-/* line 319, ../scss/layout/_grid.scss */
+/* line 319, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-6 {
   left: 50%;
 }
 
-/* line 322, ../scss/layout/_grid.scss */
+/* line 322, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-5 {
   left: 41.66666667%;
 }
 
-/* line 325, ../scss/layout/_grid.scss */
+/* line 325, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-4 {
   left: 33.33333333%;
 }
 
-/* line 328, ../scss/layout/_grid.scss */
+/* line 328, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-3 {
   left: 25%;
 }
 
-/* line 331, ../scss/layout/_grid.scss */
+/* line 331, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-2 {
   left: 16.66666667%;
 }
 
-/* line 334, ../scss/layout/_grid.scss */
+/* line 334, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-1 {
   left: 8.33333333%;
 }
 
-/* line 337, ../scss/layout/_grid.scss */
+/* line 337, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-push-0 {
   left: auto;
 }
 
-/* line 340, ../scss/layout/_grid.scss */
+/* line 340, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-12 {
   margin-left: 100%;
 }
 
-/* line 343, ../scss/layout/_grid.scss */
+/* line 343, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-11 {
   margin-left: 91.66666667%;
 }
 
-/* line 346, ../scss/layout/_grid.scss */
+/* line 346, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-10 {
   margin-left: 83.33333333%;
 }
 
-/* line 349, ../scss/layout/_grid.scss */
+/* line 349, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-9 {
   margin-left: 75%;
 }
 
-/* line 352, ../scss/layout/_grid.scss */
+/* line 352, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-8 {
   margin-left: 66.66666667%;
 }
 
-/* line 355, ../scss/layout/_grid.scss */
+/* line 355, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-7 {
   margin-left: 58.33333333%;
 }
 
-/* line 358, ../scss/layout/_grid.scss */
+/* line 358, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-6 {
   margin-left: 50%;
 }
 
-/* line 361, ../scss/layout/_grid.scss */
+/* line 361, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-5 {
   margin-left: 41.66666667%;
 }
 
-/* line 364, ../scss/layout/_grid.scss */
+/* line 364, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-4 {
   margin-left: 33.33333333%;
 }
 
-/* line 367, ../scss/layout/_grid.scss */
+/* line 367, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-3 {
   margin-left: 25%;
 }
 
-/* line 370, ../scss/layout/_grid.scss */
+/* line 370, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-2 {
   margin-left: 16.66666667%;
 }
 
-/* line 373, ../scss/layout/_grid.scss */
+/* line 373, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-1 {
   margin-left: 8.33333333%;
 }
 
-/* line 376, ../scss/layout/_grid.scss */
+/* line 376, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .col-xs-offset-0 {
   margin-left: 0%;
 }
 
 @media (min-width: 768px) {
-  /* line 380, ../scss/layout/_grid.scss */
+  /* line 380, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
 
-  /* line 383, ../scss/layout/_grid.scss */
+  /* line 383, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-12 {
     width: 100%;
   }
 
-  /* line 386, ../scss/layout/_grid.scss */
+  /* line 386, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-11 {
     width: 91.66666667%;
   }
 
-  /* line 389, ../scss/layout/_grid.scss */
+  /* line 389, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-10 {
     width: 83.33333333%;
   }
 
-  /* line 392, ../scss/layout/_grid.scss */
+  /* line 392, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-9 {
     width: 75%;
   }
 
-  /* line 395, ../scss/layout/_grid.scss */
+  /* line 395, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-8 {
     width: 66.66666667%;
   }
 
-  /* line 398, ../scss/layout/_grid.scss */
+  /* line 398, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-7 {
     width: 58.33333333%;
   }
 
-  /* line 401, ../scss/layout/_grid.scss */
+  /* line 401, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-6 {
     width: 50%;
   }
 
-  /* line 404, ../scss/layout/_grid.scss */
+  /* line 404, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-5 {
     width: 41.66666667%;
   }
 
-  /* line 407, ../scss/layout/_grid.scss */
+  /* line 407, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-4 {
     width: 33.33333333%;
   }
 
-  /* line 410, ../scss/layout/_grid.scss */
+  /* line 410, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-3 {
     width: 25%;
   }
 
-  /* line 413, ../scss/layout/_grid.scss */
+  /* line 413, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-2 {
     width: 16.66666667%;
   }
 
-  /* line 416, ../scss/layout/_grid.scss */
+  /* line 416, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-1 {
     width: 8.33333333%;
   }
 
-  /* line 419, ../scss/layout/_grid.scss */
+  /* line 419, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-12 {
     right: 100%;
   }
 
-  /* line 422, ../scss/layout/_grid.scss */
+  /* line 422, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-11 {
     right: 91.66666667%;
   }
 
-  /* line 425, ../scss/layout/_grid.scss */
+  /* line 425, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-10 {
     right: 83.33333333%;
   }
 
-  /* line 428, ../scss/layout/_grid.scss */
+  /* line 428, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-9 {
     right: 75%;
   }
 
-  /* line 431, ../scss/layout/_grid.scss */
+  /* line 431, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-8 {
     right: 66.66666667%;
   }
 
-  /* line 434, ../scss/layout/_grid.scss */
+  /* line 434, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-7 {
     right: 58.33333333%;
   }
 
-  /* line 437, ../scss/layout/_grid.scss */
+  /* line 437, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-6 {
     right: 50%;
   }
 
-  /* line 440, ../scss/layout/_grid.scss */
+  /* line 440, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-5 {
     right: 41.66666667%;
   }
 
-  /* line 443, ../scss/layout/_grid.scss */
+  /* line 443, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-4 {
     right: 33.33333333%;
   }
 
-  /* line 446, ../scss/layout/_grid.scss */
+  /* line 446, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-3 {
     right: 25%;
   }
 
-  /* line 449, ../scss/layout/_grid.scss */
+  /* line 449, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-2 {
     right: 16.66666667%;
   }
 
-  /* line 452, ../scss/layout/_grid.scss */
+  /* line 452, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-1 {
     right: 8.33333333%;
   }
 
-  /* line 455, ../scss/layout/_grid.scss */
+  /* line 455, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-pull-0 {
     right: auto;
   }
 
-  /* line 458, ../scss/layout/_grid.scss */
+  /* line 458, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-12 {
     left: 100%;
   }
 
-  /* line 461, ../scss/layout/_grid.scss */
+  /* line 461, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-11 {
     left: 91.66666667%;
   }
 
-  /* line 464, ../scss/layout/_grid.scss */
+  /* line 464, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-10 {
     left: 83.33333333%;
   }
 
-  /* line 467, ../scss/layout/_grid.scss */
+  /* line 467, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-9 {
     left: 75%;
   }
 
-  /* line 470, ../scss/layout/_grid.scss */
+  /* line 470, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-8 {
     left: 66.66666667%;
   }
 
-  /* line 473, ../scss/layout/_grid.scss */
+  /* line 473, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-7 {
     left: 58.33333333%;
   }
 
-  /* line 476, ../scss/layout/_grid.scss */
+  /* line 476, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-6 {
     left: 50%;
   }
 
-  /* line 479, ../scss/layout/_grid.scss */
+  /* line 479, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-5 {
     left: 41.66666667%;
   }
 
-  /* line 482, ../scss/layout/_grid.scss */
+  /* line 482, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-4 {
     left: 33.33333333%;
   }
 
-  /* line 485, ../scss/layout/_grid.scss */
+  /* line 485, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-3 {
     left: 25%;
   }
 
-  /* line 488, ../scss/layout/_grid.scss */
+  /* line 488, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-2 {
     left: 16.66666667%;
   }
 
-  /* line 491, ../scss/layout/_grid.scss */
+  /* line 491, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-1 {
     left: 8.33333333%;
   }
 
-  /* line 494, ../scss/layout/_grid.scss */
+  /* line 494, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-push-0 {
     left: auto;
   }
 
-  /* line 497, ../scss/layout/_grid.scss */
+  /* line 497, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-12 {
     margin-left: 100%;
   }
 
-  /* line 500, ../scss/layout/_grid.scss */
+  /* line 500, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-11 {
     margin-left: 91.66666667%;
   }
 
-  /* line 503, ../scss/layout/_grid.scss */
+  /* line 503, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-10 {
     margin-left: 83.33333333%;
   }
 
-  /* line 506, ../scss/layout/_grid.scss */
+  /* line 506, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-9 {
     margin-left: 75%;
   }
 
-  /* line 509, ../scss/layout/_grid.scss */
+  /* line 509, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-8 {
     margin-left: 66.66666667%;
   }
 
-  /* line 512, ../scss/layout/_grid.scss */
+  /* line 512, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-7 {
     margin-left: 58.33333333%;
   }
 
-  /* line 515, ../scss/layout/_grid.scss */
+  /* line 515, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-6 {
     margin-left: 50%;
   }
 
-  /* line 518, ../scss/layout/_grid.scss */
+  /* line 518, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-5 {
     margin-left: 41.66666667%;
   }
 
-  /* line 521, ../scss/layout/_grid.scss */
+  /* line 521, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-4 {
     margin-left: 33.33333333%;
   }
 
-  /* line 524, ../scss/layout/_grid.scss */
+  /* line 524, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-3 {
     margin-left: 25%;
   }
 
-  /* line 527, ../scss/layout/_grid.scss */
+  /* line 527, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-2 {
     margin-left: 16.66666667%;
   }
 
-  /* line 530, ../scss/layout/_grid.scss */
+  /* line 530, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-1 {
     margin-left: 8.33333333%;
   }
 
-  /* line 533, ../scss/layout/_grid.scss */
+  /* line 533, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-sm-offset-0 {
     margin-left: 0%;
   }
 }
 @media (min-width: 992px) {
-  /* line 538, ../scss/layout/_grid.scss */
+  /* line 538, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
 
-  /* line 541, ../scss/layout/_grid.scss */
+  /* line 541, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-12 {
     width: 100%;
   }
 
-  /* line 544, ../scss/layout/_grid.scss */
+  /* line 544, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-11 {
     width: 91.66666667%;
   }
 
-  /* line 547, ../scss/layout/_grid.scss */
+  /* line 547, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-10 {
     width: 83.33333333%;
   }
 
-  /* line 550, ../scss/layout/_grid.scss */
+  /* line 550, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-9 {
     width: 75%;
   }
 
-  /* line 553, ../scss/layout/_grid.scss */
+  /* line 553, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-8 {
     width: 66.66666667%;
   }
 
-  /* line 556, ../scss/layout/_grid.scss */
+  /* line 556, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-7 {
     width: 58.33333333%;
   }
 
-  /* line 559, ../scss/layout/_grid.scss */
+  /* line 559, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-6 {
     width: 50%;
   }
 
-  /* line 562, ../scss/layout/_grid.scss */
+  /* line 562, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-5 {
     width: 41.66666667%;
   }
 
-  /* line 565, ../scss/layout/_grid.scss */
+  /* line 565, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-4 {
     width: 33.33333333%;
   }
 
-  /* line 568, ../scss/layout/_grid.scss */
+  /* line 568, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-3 {
     width: 25%;
   }
 
-  /* line 571, ../scss/layout/_grid.scss */
+  /* line 571, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-2 {
     width: 16.66666667%;
   }
 
-  /* line 574, ../scss/layout/_grid.scss */
+  /* line 574, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-1 {
     width: 8.33333333%;
   }
 
-  /* line 577, ../scss/layout/_grid.scss */
+  /* line 577, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-12 {
     right: 100%;
   }
 
-  /* line 580, ../scss/layout/_grid.scss */
+  /* line 580, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-11 {
     right: 91.66666667%;
   }
 
-  /* line 583, ../scss/layout/_grid.scss */
+  /* line 583, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-10 {
     right: 83.33333333%;
   }
 
-  /* line 586, ../scss/layout/_grid.scss */
+  /* line 586, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-9 {
     right: 75%;
   }
 
-  /* line 589, ../scss/layout/_grid.scss */
+  /* line 589, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-8 {
     right: 66.66666667%;
   }
 
-  /* line 592, ../scss/layout/_grid.scss */
+  /* line 592, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-7 {
     right: 58.33333333%;
   }
 
-  /* line 595, ../scss/layout/_grid.scss */
+  /* line 595, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-6 {
     right: 50%;
   }
 
-  /* line 598, ../scss/layout/_grid.scss */
+  /* line 598, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-5 {
     right: 41.66666667%;
   }
 
-  /* line 601, ../scss/layout/_grid.scss */
+  /* line 601, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-4 {
     right: 33.33333333%;
   }
 
-  /* line 604, ../scss/layout/_grid.scss */
+  /* line 604, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-3 {
     right: 25%;
   }
 
-  /* line 607, ../scss/layout/_grid.scss */
+  /* line 607, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-2 {
     right: 16.66666667%;
   }
 
-  /* line 610, ../scss/layout/_grid.scss */
+  /* line 610, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-1 {
     right: 8.33333333%;
   }
 
-  /* line 613, ../scss/layout/_grid.scss */
+  /* line 613, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-pull-0 {
     right: auto;
   }
 
-  /* line 616, ../scss/layout/_grid.scss */
+  /* line 616, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-12 {
     left: 100%;
   }
 
-  /* line 619, ../scss/layout/_grid.scss */
+  /* line 619, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-11 {
     left: 91.66666667%;
   }
 
-  /* line 622, ../scss/layout/_grid.scss */
+  /* line 622, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-10 {
     left: 83.33333333%;
   }
 
-  /* line 625, ../scss/layout/_grid.scss */
+  /* line 625, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-9 {
     left: 75%;
   }
 
-  /* line 628, ../scss/layout/_grid.scss */
+  /* line 628, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-8 {
     left: 66.66666667%;
   }
 
-  /* line 631, ../scss/layout/_grid.scss */
+  /* line 631, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-7 {
     left: 58.33333333%;
   }
 
-  /* line 634, ../scss/layout/_grid.scss */
+  /* line 634, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-6 {
     left: 50%;
   }
 
-  /* line 637, ../scss/layout/_grid.scss */
+  /* line 637, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-5 {
     left: 41.66666667%;
   }
 
-  /* line 640, ../scss/layout/_grid.scss */
+  /* line 640, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-4 {
     left: 33.33333333%;
   }
 
-  /* line 643, ../scss/layout/_grid.scss */
+  /* line 643, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-3 {
     left: 25%;
   }
 
-  /* line 646, ../scss/layout/_grid.scss */
+  /* line 646, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-2 {
     left: 16.66666667%;
   }
 
-  /* line 649, ../scss/layout/_grid.scss */
+  /* line 649, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-1 {
     left: 8.33333333%;
   }
 
-  /* line 652, ../scss/layout/_grid.scss */
+  /* line 652, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-push-0 {
     left: auto;
   }
 
-  /* line 655, ../scss/layout/_grid.scss */
+  /* line 655, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-12 {
     margin-left: 100%;
   }
 
-  /* line 658, ../scss/layout/_grid.scss */
+  /* line 658, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-11 {
     margin-left: 91.66666667%;
   }
 
-  /* line 661, ../scss/layout/_grid.scss */
+  /* line 661, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-10 {
     margin-left: 83.33333333%;
   }
 
-  /* line 664, ../scss/layout/_grid.scss */
+  /* line 664, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-9 {
     margin-left: 75%;
   }
 
-  /* line 667, ../scss/layout/_grid.scss */
+  /* line 667, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-8 {
     margin-left: 66.66666667%;
   }
 
-  /* line 670, ../scss/layout/_grid.scss */
+  /* line 670, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-7 {
     margin-left: 58.33333333%;
   }
 
-  /* line 673, ../scss/layout/_grid.scss */
+  /* line 673, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-6 {
     margin-left: 50%;
   }
 
-  /* line 676, ../scss/layout/_grid.scss */
+  /* line 676, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-5 {
     margin-left: 41.66666667%;
   }
 
-  /* line 679, ../scss/layout/_grid.scss */
+  /* line 679, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-4 {
     margin-left: 33.33333333%;
   }
 
-  /* line 682, ../scss/layout/_grid.scss */
+  /* line 682, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-3 {
     margin-left: 25%;
   }
 
-  /* line 685, ../scss/layout/_grid.scss */
+  /* line 685, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-2 {
     margin-left: 16.66666667%;
   }
 
-  /* line 688, ../scss/layout/_grid.scss */
+  /* line 688, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-1 {
     margin-left: 8.33333333%;
   }
 
-  /* line 691, ../scss/layout/_grid.scss */
+  /* line 691, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-md-offset-0 {
     margin-left: 0%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 696, ../scss/layout/_grid.scss */
+  /* line 696, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
 
-  /* line 699, ../scss/layout/_grid.scss */
+  /* line 699, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-12 {
     width: 100%;
   }
 
-  /* line 702, ../scss/layout/_grid.scss */
+  /* line 702, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-11 {
     width: 91.66666667%;
   }
 
-  /* line 705, ../scss/layout/_grid.scss */
+  /* line 705, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-10 {
     width: 83.33333333%;
   }
 
-  /* line 708, ../scss/layout/_grid.scss */
+  /* line 708, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-9 {
     width: 75%;
   }
 
-  /* line 711, ../scss/layout/_grid.scss */
+  /* line 711, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-8 {
     width: 66.66666667%;
   }
 
-  /* line 714, ../scss/layout/_grid.scss */
+  /* line 714, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-7 {
     width: 58.33333333%;
   }
 
-  /* line 717, ../scss/layout/_grid.scss */
+  /* line 717, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-6 {
     width: 50%;
   }
 
-  /* line 720, ../scss/layout/_grid.scss */
+  /* line 720, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-5 {
     width: 41.66666667%;
   }
 
-  /* line 723, ../scss/layout/_grid.scss */
+  /* line 723, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-4 {
     width: 33.33333333%;
   }
 
-  /* line 726, ../scss/layout/_grid.scss */
+  /* line 726, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-3 {
     width: 25%;
   }
 
-  /* line 729, ../scss/layout/_grid.scss */
+  /* line 729, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-2 {
     width: 16.66666667%;
   }
 
-  /* line 732, ../scss/layout/_grid.scss */
+  /* line 732, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-1 {
     width: 8.33333333%;
   }
 
-  /* line 735, ../scss/layout/_grid.scss */
+  /* line 735, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-12 {
     right: 100%;
   }
 
-  /* line 738, ../scss/layout/_grid.scss */
+  /* line 738, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-11 {
     right: 91.66666667%;
   }
 
-  /* line 741, ../scss/layout/_grid.scss */
+  /* line 741, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-10 {
     right: 83.33333333%;
   }
 
-  /* line 744, ../scss/layout/_grid.scss */
+  /* line 744, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-9 {
     right: 75%;
   }
 
-  /* line 747, ../scss/layout/_grid.scss */
+  /* line 747, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-8 {
     right: 66.66666667%;
   }
 
-  /* line 750, ../scss/layout/_grid.scss */
+  /* line 750, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-7 {
     right: 58.33333333%;
   }
 
-  /* line 753, ../scss/layout/_grid.scss */
+  /* line 753, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-6 {
     right: 50%;
   }
 
-  /* line 756, ../scss/layout/_grid.scss */
+  /* line 756, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-5 {
     right: 41.66666667%;
   }
 
-  /* line 759, ../scss/layout/_grid.scss */
+  /* line 759, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-4 {
     right: 33.33333333%;
   }
 
-  /* line 762, ../scss/layout/_grid.scss */
+  /* line 762, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-3 {
     right: 25%;
   }
 
-  /* line 765, ../scss/layout/_grid.scss */
+  /* line 765, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-2 {
     right: 16.66666667%;
   }
 
-  /* line 768, ../scss/layout/_grid.scss */
+  /* line 768, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-1 {
     right: 8.33333333%;
   }
 
-  /* line 771, ../scss/layout/_grid.scss */
+  /* line 771, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-pull-0 {
     right: auto;
   }
 
-  /* line 774, ../scss/layout/_grid.scss */
+  /* line 774, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-12 {
     left: 100%;
   }
 
-  /* line 777, ../scss/layout/_grid.scss */
+  /* line 777, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-11 {
     left: 91.66666667%;
   }
 
-  /* line 780, ../scss/layout/_grid.scss */
+  /* line 780, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-10 {
     left: 83.33333333%;
   }
 
-  /* line 783, ../scss/layout/_grid.scss */
+  /* line 783, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-9 {
     left: 75%;
   }
 
-  /* line 786, ../scss/layout/_grid.scss */
+  /* line 786, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-8 {
     left: 66.66666667%;
   }
 
-  /* line 789, ../scss/layout/_grid.scss */
+  /* line 789, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-7 {
     left: 58.33333333%;
   }
 
-  /* line 792, ../scss/layout/_grid.scss */
+  /* line 792, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-6 {
     left: 50%;
   }
 
-  /* line 795, ../scss/layout/_grid.scss */
+  /* line 795, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-5 {
     left: 41.66666667%;
   }
 
-  /* line 798, ../scss/layout/_grid.scss */
+  /* line 798, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-4 {
     left: 33.33333333%;
   }
 
-  /* line 801, ../scss/layout/_grid.scss */
+  /* line 801, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-3 {
     left: 25%;
   }
 
-  /* line 804, ../scss/layout/_grid.scss */
+  /* line 804, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-2 {
     left: 16.66666667%;
   }
 
-  /* line 807, ../scss/layout/_grid.scss */
+  /* line 807, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-1 {
     left: 8.33333333%;
   }
 
-  /* line 810, ../scss/layout/_grid.scss */
+  /* line 810, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-push-0 {
     left: auto;
   }
 
-  /* line 813, ../scss/layout/_grid.scss */
+  /* line 813, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-12 {
     margin-left: 100%;
   }
 
-  /* line 816, ../scss/layout/_grid.scss */
+  /* line 816, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-11 {
     margin-left: 91.66666667%;
   }
 
-  /* line 819, ../scss/layout/_grid.scss */
+  /* line 819, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-10 {
     margin-left: 83.33333333%;
   }
 
-  /* line 822, ../scss/layout/_grid.scss */
+  /* line 822, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-9 {
     margin-left: 75%;
   }
 
-  /* line 825, ../scss/layout/_grid.scss */
+  /* line 825, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-8 {
     margin-left: 66.66666667%;
   }
 
-  /* line 828, ../scss/layout/_grid.scss */
+  /* line 828, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-7 {
     margin-left: 58.33333333%;
   }
 
-  /* line 831, ../scss/layout/_grid.scss */
+  /* line 831, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-6 {
     margin-left: 50%;
   }
 
-  /* line 834, ../scss/layout/_grid.scss */
+  /* line 834, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-5 {
     margin-left: 41.66666667%;
   }
 
-  /* line 837, ../scss/layout/_grid.scss */
+  /* line 837, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-4 {
     margin-left: 33.33333333%;
   }
 
-  /* line 840, ../scss/layout/_grid.scss */
+  /* line 840, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-3 {
     margin-left: 25%;
   }
 
-  /* line 843, ../scss/layout/_grid.scss */
+  /* line 843, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-2 {
     margin-left: 16.66666667%;
   }
 
-  /* line 846, ../scss/layout/_grid.scss */
+  /* line 846, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-1 {
     margin-left: 8.33333333%;
   }
 
-  /* line 849, ../scss/layout/_grid.scss */
+  /* line 849, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
   .col-lg-offset-0 {
     margin-left: 0%;
   }
 }
-/* line 861, ../scss/layout/_grid.scss */
+/* line 861, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .clearfix,
 .clearfix:before,
 .clearfix:after,
@@ -1724,7 +1724,7 @@ p {
   display: table;
 }
 
-/* line 868, ../scss/layout/_grid.scss */
+/* line 868, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .clearfix:after,
 .container:after,
 .container-fluid:after,
@@ -1732,24 +1732,24 @@ p {
   clear: both;
 }
 
-/* line 871, ../scss/layout/_grid.scss */
+/* line 871, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 876, ../scss/layout/_grid.scss */
+/* line 876, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .pull-right {
   float: right !important;
 }
 
-/* line 879, ../scss/layout/_grid.scss */
+/* line 879, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 .pull-left {
   float: left !important;
 }
 
-/* line 884, ../scss/layout/_grid.scss */
+/* line 884, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_grid.scss */
 *,
 *:before,
 *:after {
@@ -1758,25 +1758,29 @@ p {
   box-sizing: border-box;
 }
 
-/* line 1, ../scss/layout/_header.scss */
+/* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 5, ../scss/layout/_header.scss */
+/* line 5, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 .header-top {
   width: 100%;
   height: 20px;
 }
 
-/* line 9, ../scss/layout/_header.scss */
+/* line 9, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3 {
   z-index: 9999999;
   width: 100%;
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 100%;
 }
 
-/* line 13, ../scss/layout/_header.scss */
+/* line 18, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 .header-logo {
   width: 40px;
   height: 40px;
@@ -1785,7 +1789,7 @@ header {
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 21, ../scss/layout/_header.scss */
+/* line 26, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 .header-homenav {
   position: fixed;
   background-color: rgba(239, 239, 239, 0.96);
@@ -1795,14 +1799,14 @@ header {
   display: none;
 }
 
-/* line 30, ../scss/layout/_header.scss */
+/* line 35, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 .header-homenav ul {
   width: 100%;
   padding: 20px;
   margin-top: 60px;
 }
 
-/* line 36, ../scss/layout/_header.scss */
+/* line 41, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #logo-desktop {
   width: 60px;
   height: 60px;
@@ -1810,13 +1814,13 @@ header {
   display: none;
 }
 @media (min-width: 992px) {
-  /* line 36, ../scss/layout/_header.scss */
+  /* line 41, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
   #logo-desktop {
     display: block;
   }
 }
 
-/* line 47, ../scss/layout/_header.scss */
+/* line 52, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3 {
   width: 40px;
   height: 26px;
@@ -1834,7 +1838,7 @@ header {
   cursor: pointer;
 }
 
-/* line 65, ../scss/layout/_header.scss */
+/* line 70, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3 span {
   display: block;
   position: absolute;
@@ -1854,29 +1858,29 @@ header {
   transition: .25s ease-in-out;
 }
 
-/* line 86, ../scss/layout/_header.scss */
+/* line 91, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3 span:nth-child(1) {
   top: 0px;
 }
 
-/* line 90, ../scss/layout/_header.scss */
+/* line 95, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
   top: 9px;
 }
 
-/* line 94, ../scss/layout/_header.scss */
+/* line 99, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3 span:nth-child(4) {
   top: 18px;
 }
 
-/* line 98, ../scss/layout/_header.scss */
+/* line 103, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3.open span:nth-child(1) {
   top: 18px;
   width: 0%;
   left: 50%;
 }
 
-/* line 104, ../scss/layout/_header.scss */
+/* line 109, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -1884,7 +1888,7 @@ header {
   transform: rotate(45deg);
 }
 
-/* line 111, ../scss/layout/_header.scss */
+/* line 116, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -1892,14 +1896,14 @@ header {
   transform: rotate(-45deg);
 }
 
-/* line 118, ../scss/layout/_header.scss */
+/* line 123, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_header.scss */
 #nav-icon3.open span:nth-child(4) {
   top: 18px;
   width: 0%;
   left: 50%;
 }
 
-/* line 1, ../scss/layout/_footer.scss */
+/* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
 footer {
   width: 100%;
   overflow: hidden;
@@ -1908,44 +1912,44 @@ footer {
   position: relative;
 }
 @media (min-width: 826px) {
-  /* line 1, ../scss/layout/_footer.scss */
+  /* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
   footer {
     min-height: 87px;
   }
 }
 @media (min-width: 992px) {
-  /* line 1, ../scss/layout/_footer.scss */
+  /* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
   footer {
     min-height: 18vh;
   }
 }
 
-/* line 16, ../scss/layout/_footer.scss */
+/* line 16, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
 #footer-img {
   min-width: 1920px;
   height: 320px;
   display: none;
 }
 @media (min-width: 992px) {
-  /* line 16, ../scss/layout/_footer.scss */
+  /* line 16, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
   #footer-img {
     display: block;
     width: 100%;
   }
 }
 
-/* line 25, ../scss/layout/_footer.scss */
+/* line 25, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
 #footer-img2 {
   min-width: 500px;
 }
 @media (min-width: 992px) {
-  /* line 25, ../scss/layout/_footer.scss */
+  /* line 25, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
   #footer-img2 {
     display: none;
   }
 }
 
-/* line 32, ../scss/layout/_footer.scss */
+/* line 32, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
 .footer-white {
   width: 100%;
   min-height: 10px;
@@ -1954,26 +1958,26 @@ footer {
   bottom: 0;
 }
 @media (min-width: 826px) {
-  /* line 32, ../scss/layout/_footer.scss */
+  /* line 32, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
   .footer-white {
     min-height: 30px;
   }
 }
 @media (min-width: 992px) {
-  /* line 32, ../scss/layout/_footer.scss */
+  /* line 32, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_footer.scss */
   .footer-white {
-    min-height: 30px;
+    min-height: 50px;
   }
 }
 
-/* line 1, ../scss/layout/_login.scss */
+/* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .mobile-login {
   padding: 20px;
   width: 100%;
   display: none;
 }
 
-/* line 8, ../scss/layout/_login.scss */
+/* line 8, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .login-logo {
   display: block;
   width: 100%;
@@ -1982,20 +1986,20 @@ footer {
   justify-content: center;
 }
 
-/* line 16, ../scss/layout/_login.scss */
+/* line 16, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 #login-logo {
   width: 45%;
   margin-top: 40px;
 }
 
-/* line 21, ../scss/layout/_login.scss */
+/* line 21, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .login-inputs {
   width: 90%;
   margin: auto;
   padding-top: 40px;
 }
 
-/* line 27, ../scss/layout/_login.scss */
+/* line 27, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .login-inputs input {
   float: left;
   width: 80%;
@@ -2005,7 +2009,7 @@ footer {
   border: none;
 }
 
-/* line 37, ../scss/layout/_login.scss */
+/* line 37, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 #user, #pass {
   width: 20%;
   float: left;
@@ -2013,13 +2017,13 @@ footer {
   display: flex;
 }
 
-/* line 43, ../scss/layout/_login.scss */
+/* line 43, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 #user-logo, #pass-logo {
   height: 20px;
   align-self: flex-end;
 }
 
-/* line 49, ../scss/layout/_login.scss */
+/* line 49, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .login-inputs__full {
   width: 80%;
   margin: auto;
@@ -2028,12 +2032,12 @@ footer {
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 56, ../scss/layout/_login.scss */
+/* line 56, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 #input2 {
   padding-top: 20px;
 }
 
-/* line 59, ../scss/layout/_login.scss */
+/* line 59, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .login-border1, .login-border2 {
   transition: all 500ms ease-in-out 0s;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -2043,7 +2047,7 @@ footer {
   clear: both;
 }
 
-/* line 67, ../scss/layout/_login.scss */
+/* line 67, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .login-border__extra {
   transition: all 500ms ease-in-out 0s;
   border-bottom: 1px solid #ffffff;
@@ -2051,7 +2055,7 @@ footer {
   clear: both;
 }
 
-/* line 76, ../scss/layout/_login.scss */
+/* line 76, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .login-stroke {
   width: 100%;
   margin-top: 60px;
@@ -2060,19 +2064,19 @@ footer {
   clear: both;
 }
 
-/* line 83, ../scss/layout/_login.scss */
+/* line 83, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .label1, .label2 {
   transition: all 500ms ease-in-out 0s;
   visibility: hidden;
 }
 
-/* line 87, ../scss/layout/_login.scss */
+/* line 87, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .label-display {
   transition: all 500ms ease-in-out 0s;
   visibility: visible;
 }
 
-/* line 91, ../scss/layout/_login.scss */
+/* line 91, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .login-buttonwrapper {
   width: 100%;
   margin-top: 40px;
@@ -2082,17 +2086,17 @@ footer {
   align-items: center;
 }
 
-/* line 103, ../scss/layout/_login.scss */
+/* line 103, D:/HPgebruiker/Documents/nmdad1.local/_sass/layout/_login.scss */
 .login-register {
   margin-top: 40px;
 }
 
-/* line 1, ../scss/components/_buttons.scss */
+/* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
 .home-buttons {
   overflow: auto;
 }
 
-/* line 5, ../scss/components/_buttons.scss */
+/* line 5, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
 .home-button1 {
   width: 100%;
   margin: auto;
@@ -2102,7 +2106,7 @@ footer {
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 13, ../scss/components/_buttons.scss */
+/* line 13, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
 .home-button2 {
   width: 100%;
   background-color: #fff;
@@ -2113,14 +2117,14 @@ footer {
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 22, ../scss/components/_buttons.scss */
+/* line 22, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
 .home-button1:hover {
   border: 2px solid #9684c7;
   color: #9684c7;
   border-radius: 60px;
 }
 
-/* line 27, ../scss/components/_buttons.scss */
+/* line 27, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
 .home-button2:hover {
   cursor: pointer;
   border: 2px solid #564781;
@@ -2128,28 +2132,28 @@ footer {
   border-radius: 60px;
 }
 
-/* line 33, ../scss/components/_buttons.scss */
+/* line 33, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
 #button1, #button2 {
   width: 90%;
   cursor: pointer;
   margin-top: 20px;
 }
 @media (min-width: 600px) {
-  /* line 33, ../scss/components/_buttons.scss */
+  /* line 33, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
   #button1, #button2 {
     width: 30%;
     float: left;
   }
 }
 
-/* line 42, ../scss/components/_buttons.scss */
+/* line 42, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
 #button3 {
   cursor: pointer;
   width: 44.4%;
   margin: auto;
 }
 
-/* line 49, ../scss/components/_buttons.scss */
+/* line 49, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
 .login-button {
   width: 100%;
   background-color: #564781;
@@ -2160,7 +2164,7 @@ footer {
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 58, ../scss/components/_buttons.scss */
+/* line 58, D:/HPgebruiker/Documents/nmdad1.local/_sass/components/_buttons.scss */
 .login-button:hover {
   background-color: #9684c7;
   border: 2px solid #9684c7;
@@ -2169,13 +2173,13 @@ footer {
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 1, ../scss/pages/_home.scss */
+/* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 #mobile-height {
   padding-top: 100px;
   overflow: hidden;
 }
 
-/* line 6, ../scss/pages/_home.scss */
+/* line 6, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 .home-overlay {
   z-index: -1;
   overflow: auto;
@@ -2184,7 +2188,7 @@ footer {
   position: fixed;
 }
 
-/* line 17, ../scss/pages/_home.scss */
+/* line 17, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 .home-stroke {
   width: 100%;
   margin-top: 115px;
@@ -2193,13 +2197,13 @@ footer {
   clear: both;
 }
 
-/* line 24, ../scss/pages/_home.scss */
+/* line 24, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 .home-mockup {
   width: 50%;
   height: 100%;
 }
 
-/* line 29, ../scss/pages/_home.scss */
+/* line 29, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 .home-info {
   width: 100%;
   margin-top: 20px;
@@ -2208,7 +2212,7 @@ footer {
   max-width: 770px;
 }
 @media (min-width: 992px) {
-  /* line 29, ../scss/pages/_home.scss */
+  /* line 29, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
   .home-info {
     font-size: 16px;
     line-height: 1.5em;
@@ -2216,7 +2220,7 @@ footer {
   }
 }
 
-/* line 42, ../scss/pages/_home.scss */
+/* line 42, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 .home-line {
   width: 50px;
   height: 4px;
@@ -2226,7 +2230,7 @@ footer {
   margin-bottom: 18px;
 }
 
-/* line 51, ../scss/pages/_home.scss */
+/* line 51, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 .mockup-box {
   display: none;
   position: absolute;
@@ -2237,18 +2241,18 @@ footer {
   height: 40%;
 }
 @media (min-width: 992px) {
-  /* line 51, ../scss/pages/_home.scss */
+  /* line 51, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
   .mockup-box {
     display: block;
   }
 }
 
-/* line 64, ../scss/pages/_home.scss */
+/* line 64, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 .mockup2 {
   width: 100%;
 }
 
-/* line 71, ../scss/pages/_home.scss */
+/* line 71, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 .test {
   display: flex;
   justify-content: center;
@@ -2261,7 +2265,7 @@ footer {
   transition: all 1000ms ease-in-out 0s;
 }
 
-/* line 83, ../scss/pages/_home.scss */
+/* line 83, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_home.scss */
 .weffect--show {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -2269,7 +2273,7 @@ footer {
   transition: all 1000ms ease-in-out 0s;
 }
 
-/* line 1, ../scss/pages/_404.scss */
+/* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/pages/_404.scss */
 .error-button {
   width: 100%;
   margin: auto;
@@ -2279,20 +2283,20 @@ footer {
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 1, ../scss/themes/_theme.scss */
+/* line 1, D:/HPgebruiker/Documents/nmdad1.local/_sass/themes/_theme.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 6, ../scss/themes/_theme.scss */
+/* line 6, D:/HPgebruiker/Documents/nmdad1.local/_sass/themes/_theme.scss */
 html {
   overflow-x: hidden;
   max-width: 100%;
 }
 
-/* line 10, ../scss/themes/_theme.scss */
+/* line 10, D:/HPgebruiker/Documents/nmdad1.local/_sass/themes/_theme.scss */
 body {
   font-size: 14px;
   background-position: center;
@@ -2302,13 +2306,13 @@ body {
   width: 100%;
 }
 
-/* line 20, ../scss/themes/_theme.scss */
+/* line 20, D:/HPgebruiker/Documents/nmdad1.local/_sass/themes/_theme.scss */
 header {
   width: 100%;
   overflow: auto;
 }
 
-/* line 24, ../scss/themes/_theme.scss */
+/* line 24, D:/HPgebruiker/Documents/nmdad1.local/_sass/themes/_theme.scss */
 .container {
   width: 100%;
   overflow: auto;
@@ -2316,13 +2320,13 @@ header {
   margin: auto;
 }
 
-/* line 32, ../scss/themes/_theme.scss */
+/* line 32, D:/HPgebruiker/Documents/nmdad1.local/_sass/themes/_theme.scss */
 .hidden {
   display: none;
 }
 
 /* MAP */
-/* line 38, ../scss/themes/_theme.scss */
+/* line 38, D:/HPgebruiker/Documents/nmdad1.local/_sass/themes/_theme.scss */
 #map {
   width: 100%;
   height: 100vh;
