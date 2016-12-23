@@ -81,7 +81,7 @@ layout  : map
                                 icon: pin_apotheek
                             });
                             marker.setMap(map);
-                            var contentStringApotheek = '<div class="app-popup"><h3>Apotheek</h3><br><strong>Naam: </strong>' + this.NAAM + '<br> <strong> Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong> Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringApotheek = '<div class="app-popup"><h3>Apotheek</h3><br><strong>Naam: </strong>' + this.NAAM + '<br> <strong> Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong> Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '</div><br>' + '<button class="app-button" type="button"> Check in </button> ';
                             var infowindowApotheek = new google.maps.InfoWindow({
                                 content: contentStringApotheek
                             });
@@ -104,7 +104,7 @@ layout  : map
                                 icon: pin_bibliotheek
                             });
                             marker.setMap(map);
-                            var contentStringBibliotheek = '<div class="app-popup"><h3>Bibliotheek</h3><br><strong>Afdeling: </strong>' + this.ADELING + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringBibliotheek = '<div class="app-popup"><h3>Bibliotheek</h3><br><strong>Afdeling: </strong>' + this.ADELING + '</div><br>' + '<button class="app-button" type="button"> Check in </button> ';
                             var infowindowBibliotheek = new google.maps.InfoWindow({
                                 content: contentStringBibliotheek
                             });
@@ -127,7 +127,7 @@ layout  : map
                                 icon: pin_bioscoop
                             });
                             marker.setMap(map);
-                            var contentStringBioscopen = '<div class="app-popup"><h3>Bioscoop</h3><br><strong>Naam: </strong>' + this.Naam + '<br><strong>Adres: </strong>' + this.Ligging + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringBioscopen = '<div class="app-popup"><h3>Bioscoop</h3><br><strong>Naam: </strong>' + this.Naam + '<br><strong>Adres: </strong>' + this.Ligging + '</div><br>' + '<button class="app-button" type="button"> Check in </button> ';
                             var infowindowBioscopen = new google.maps.InfoWindow({
                                 content: contentStringBioscopen
                             });
@@ -150,7 +150,7 @@ layout  : map
                                 icon: pin_fietsdienst
                             });
                             marker.setMap(map);
-                            var contentStringFietsdienst = '<div class="app-popup"><h3>Fietsdienstverlening</h3><br><strong>Naam: </strong>' + this.Type + '<br><strong>Adres: </strong>' + this.Adres + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringFietsdienst = '<div class="app-popup"><h3>Fietsdienstverlening</h3><br><strong>Naam: </strong>' + this.Type + '<br><strong>Adres: </strong>' + this.Adres + '</div><br>' + '<button class="app-button" type="button"> Check in </button> ';
                             var infowindowFietsdienst = new google.maps.InfoWindow({
                                 content: contentStringFietsdienst
                             });
@@ -173,7 +173,7 @@ layout  : map
                                 icon: pin_gezondhdscentr
                             });
                             marker.setMap(map);
-                            var contentStringGezondheids = '<div class="app-popup" ><h3>Gezondheidscentrum</h3><br><strong>Naam: </strong>' + this.NAAM + '<br><strong>Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong>Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Email: </strong>' + this.EMAIL + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringGezondheids = '<div class="app-popup" ><h3>Gezondheidscentrum</h3><br><strong>Naam: </strong>' + this.NAAM + '<br><strong>Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong>Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Email: </strong>' + this.EMAIL + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '</div><br>' + '<button class="app-button" type="button"> Check in </button> ';
                             var infowindowGezondheids = new google.maps.InfoWindow({
                                 content: contentStringGezondheids
                             });
@@ -196,7 +196,7 @@ layout  : map
                                 icon: pin_huisartswacht
                             });
                             marker.setMap(map);
-                            var contentStringHuisartswacht = '<div class="app-popup" ><h3>Huisarts van wacht</h3><br><strong>Naam: </strong>' + this.NAAM + '<br><strong>Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong>Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringHuisartswacht = '<div class="app-popup" ><h3>Huisarts van wacht</h3><br><strong>Naam: </strong>' + this.NAAM + '<br><strong>Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong>Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '</div><br>' + '<button type="button" class="app-button" > Check in </button> ';
                             var infowindowHuisartswacht = new google.maps.InfoWindow({
                                 content: contentStringHuisartswacht
                             });
@@ -219,7 +219,7 @@ layout  : map
                                 icon: pin_sportcentra
                             });
                             marker.setMap(map);
-                            var contentStringFietsdienst = '<div class="app-popup"><h3>Sportcentrum</h3><br><strong>Naam: </strong>' + this.Naam + '<br><strong>Adres: </strong>' + this.straat + ' ' + this.nr + '<br><strong>Gemeente: </strong>' + this.pstcd + ' ' + this.Gem + '<br><strong>Type: </strong>' + this.type + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringFietsdienst = '<div class="app-popup"><h3>Sportcentrum</h3><br><strong>Naam: </strong>' + this.Naam + '<br><strong>Adres: </strong>' + this.straat + ' ' + this.nr + '<br><strong>Gemeente: </strong>' + this.pstcd + ' ' + this.Gem + '<br><strong>Type: </strong>' + this.type + '</div><br>' + '<button class="app-button" type="button"> Check in </button> ';
                             var infowindowFietsdienst = new google.maps.InfoWindow({
                                 content: contentStringFietsdienst
                             });
@@ -242,7 +242,7 @@ layout  : map
                                 icon: pin_taxi
                             });
                             marker.setMap(map);
-                            var contentStringTaxi = '<div class="app-popup" ><h3>Taxi</h3></div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringTaxi = '<div class="app-popup" ><h3>Taxi</h3></div><br>' + '<button class="app-button" type="button"> Check in </button> ';
                             var infowindowTaxi = new google.maps.InfoWindow({
                                 content: contentStringTaxi
                             });
@@ -288,7 +288,7 @@ layout  : map
                                 icon: pin_huisarts
                             });
                             marker.setMap(map);
-                            var contentStringHuisarts = '<div class="app-popup" ><h3>Huisarts</h3><br><strong>Naam: </strong>' + this.NAAM + '<br><strong>Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong>Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '<br><strong>Geslacht: </strong>' + this.GESLACHT + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringHuisarts = '<div class="app-popup" ><h3>Huisarts</h3><br><strong>Naam: </strong>' + this.NAAM + '<br><strong>Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong>Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '<br><strong>Geslacht: </strong>' + this.GESLACHT + '</div><br>' + '<button class="app-button" type="button"> Check in </button> ';
                             var infowindowHuisarts = new google.maps.InfoWindow({
                                 content: contentStringHuisarts
                             });
@@ -311,7 +311,7 @@ layout  : map
                                 icon: pin_speelterrein
                             });
                             marker.setMap(map);
-                            var contentStringSpeelterrein = '<div class="app-popup" ><h3>Speelterrein</h3><br><strong>Plaats: </strong>' + this.naam + '<br><strong>Functies: </strong>' + this.functies + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var contentStringSpeelterrein = '<div class="app-popup" ><h3>Speelterrein</h3><br><strong>Plaats: </strong>' + this.naam + '<br><strong>Functies: </strong>' + this.functies + '</div><br>' + '<button class="app-button" type="button"> Check in </button> ';
                             var infowindowSpeelterrein = new google.maps.InfoWindow({
                                 content: contentStringSpeelterrein
                             });
