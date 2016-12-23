@@ -2392,11 +2392,14 @@ footer {
 /* line 10, ../_sass/pages/_profile.scss */
 .profile-circle .profile-pinpoint {
   position: absolute;
-  background-color: red;
   width: 60px;
   height: 70px;
   right: 10%;
   bottom: 0;
+}
+/* line 17, ../_sass/pages/_profile.scss */
+.profile-circle .profile-pinpoint img {
+  width: 100%;
 }
 @media (min-width: 600px) {
   /* line 1, ../_sass/pages/_profile.scss */
@@ -2413,29 +2416,36 @@ footer {
   }
 }
 
-/* line 31, ../_sass/pages/_profile.scss */
+/* line 33, ../_sass/pages/_profile.scss */
 .profile-list {
   overflow: auto;
 }
-/* line 33, ../_sass/pages/_profile.scss */
+/* line 35, ../_sass/pages/_profile.scss */
 .profile-list ul, .profile-list li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 38, ../_sass/pages/_profile.scss */
+/* line 40, ../_sass/pages/_profile.scss */
 .profile-list li {
   color: #dedede;
   display: block;
   float: left;
   border-bottom: 1px solid #dedede;
 }
-/* line 44, ../_sass/pages/_profile.scss */
+/* line 46, ../_sass/pages/_profile.scss */
 .profile-list .ster, .profile-list .vrienden, .profile-list .berichten {
   float: left;
   width: 30px;
   height: 30px;
   background-color: grey;
+}
+
+/* line 54, ../_sass/pages/_profile.scss */
+.profile-header {
+  display: block;
+  width: 100%;
+  margin: auto;
 }
 
 /* line 1, ../_sass/themes/_theme.scss */
