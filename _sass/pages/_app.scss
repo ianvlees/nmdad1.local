@@ -2,3 +2,25 @@
     overflow: hidden;
     max-width: none;
 }
+
+.app-popup {
+    color: black;
+    button {
+        text-transform: capitalize;
+        text-align: center;
+        padding: 6px;
+        font-size: 11px;
+        border-radius: 60px;
+        background-color: #7323DB;
+        border: 2px solid #7323DB;
+        color: #fff;
+        transition: all 100ms ease-in-out 0s;
+    }
+    button:hover {
+        border: 2px solid #564781;
+        cursor: pointer;
+        border: 2px solid #564781;
+        background-color: #564781;
+        border-radius: 60px;
+    }
+}
