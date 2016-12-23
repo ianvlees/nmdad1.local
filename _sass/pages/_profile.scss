@@ -3,6 +3,7 @@
     position: relative;
     margin: auto;
     min-height: 200px;
+    max-width: 250px;
     img {
         width: 100%;
     }
@@ -14,6 +15,7 @@
         right: 10%;
         bottom: 0;
         
+        
     }
      @media #{$small}{
         width: 60%;
@@ -21,7 +23,7 @@
     } 
     @media #{$medium}{
         width: 50%;
-        max-width: 250px;
+        
         float: left;
     } 
 }

@@ -673,6 +673,7 @@ p {
   margin-right: -15px;
 }
 
+
 /* line 217, ../_sass/layout/_grid.scss */
 .col, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
@@ -2383,12 +2384,13 @@ footer {
   position: relative;
   margin: auto;
   min-height: 200px;
+  max-width: 250px;
 }
-/* line 6, ../_sass/pages/_profile.scss */
+/* line 7, ../_sass/pages/_profile.scss */
 .profile-circle img {
   width: 100%;
 }
-/* line 9, ../_sass/pages/_profile.scss */
+/* line 10, ../_sass/pages/_profile.scss */
 .profile-circle .profile-pinpoint {
   position: absolute;
   background-color: red;
@@ -2408,18 +2410,17 @@ footer {
   /* line 1, ../_sass/pages/_profile.scss */
   .profile-circle {
     width: 50%;
-    max-width: 250px;
     float: left;
   }
 }
 
-/* line 30, ../_sass/pages/_profile.scss */
+/* line 32, ../_sass/pages/_profile.scss */
 .profile-list ul, .profile-list li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 35, ../_sass/pages/_profile.scss */
+/* line 37, ../_sass/pages/_profile.scss */
 .profile-list li {
   border-bottom: 1px solid #dedede;
 }
