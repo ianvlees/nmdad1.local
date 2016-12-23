@@ -27,12 +27,13 @@ header {
     width: 35px;
     height:35px;
     padding: 2.5px;
+    cursor: pointer;
 }
 
 .header-homenav {
     position: fixed;
     background-color: #e2e2e2;
-    opacity: 0.9;
+    opacity: 0.94;
     width: 100%;
     height: 100vh;
     z-index: 999999;
