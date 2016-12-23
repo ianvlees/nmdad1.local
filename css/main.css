@@ -230,6 +230,7 @@ p {
   transition: all 100ms ease-in-out 0s;
 }
 
+
 /* line 144, ../_sass/base/_typography.scss */
 .home-intro {
   margin-top: 30px;
@@ -2352,6 +2353,176 @@ footer {
   color: black;
 }
 
+/* line 29, ../_sass/pages/_app.scss */
+a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+/* line 37, ../_sass/pages/_app.scss */
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* line 50, ../_sass/pages/_app.scss */
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+/* line 68, ../_sass/pages/_app.scss */
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+/* line 88, ../_sass/pages/_app.scss */
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+/* line 93, ../_sass/pages/_app.scss */
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+/* line 99, ../_sass/pages/_app.scss */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/* line 107, ../_sass/pages/_app.scss */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/* line 114, ../_sass/pages/_app.scss */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/* line 121, ../_sass/pages/_app.scss */
+#menu {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+/* line 139, ../_sass/pages/_app.scss */
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+  margin-bottom: 5%;
+}
+
+/* line 145, ../_sass/pages/_app.scss */
+#menu li img {
+  width: 6%;
+  margin-right: 8%;
+}
+
+/* line 151, ../_sass/pages/_app.scss */
+#menuToggle input:checked ~ ul {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+/* line 157, ../_sass/pages/_app.scss */
+.onoffswitch {
+  margin-top: 2%;
+  float: right;
+  position: relative;
+  width: 40px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* line 163, ../_sass/pages/_app.scss */
+.onoffswitch-checkbox {
+  display: none;
+}
+
+/* line 166, ../_sass/pages/_app.scss */
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  height: 20px;
+  padding: 0;
+  line-height: 20px;
+  border: 2px solid #CCCCCC;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  transition: background-color 0.3s ease-in;
+}
+
+/* line 173, ../_sass/pages/_app.scss */
+.onoffswitch-label:before {
+  content: "";
+  display: block;
+  width: 20px;
+  margin: 0px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 18px;
+  border: 2px solid #CCCCCC;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+
+/* line 182, ../_sass/pages/_app.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+  background-color: #6308FF;
+}
+
+/* line 185, ../_sass/pages/_app.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  border-color: #6308FF;
+}
+
+/* line 188, ../_sass/pages/_app.scss */
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  right: 0px;
+}
+
 /* line 2, ../_sass/pages/_contact.scss */
 #contact-form input {
   border: 0.7px solid #dedede;
@@ -2428,24 +2599,25 @@ footer {
 }
 /* line 40, ../_sass/pages/_profile.scss */
 .profile-list li {
-  color: #dedede;
+  color: #afafaf;
   display: block;
   float: left;
+  width: 100%;
   border-bottom: 1px solid #dedede;
 }
-/* line 46, ../_sass/pages/_profile.scss */
+/* line 47, ../_sass/pages/_profile.scss */
 .profile-list .ster, .profile-list .vrienden, .profile-list .berichten {
   float: left;
   width: 30px;
   height: 30px;
-  background-color: grey;
 }
 
-/* line 54, ../_sass/pages/_profile.scss */
+/* line 55, ../_sass/pages/_profile.scss */
 .profile-header {
   display: block;
   width: 100%;
   margin: auto;
+  text-align: center;
 }
 
 /* line 1, ../_sass/themes/_theme.scss */

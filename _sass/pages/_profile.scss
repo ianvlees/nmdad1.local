@@ -38,16 +38,17 @@
         padding: 0;
     }
     li {
-        color: #dedede;
+        color: #afafaf;
         display: block;
         float: left;
+        width: 100%;
         border-bottom: 1px solid #dedede;
     }
     .ster, .vrienden, .berichten {
         float: left;
         width: 30px;
         height: 30px;
-        background-color: grey;
+        
         
     }
 }
@@ -55,4 +56,5 @@
     display: block;
     width: 100%;
     margin: auto;
+    text-align: center;
 }

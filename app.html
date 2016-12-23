@@ -24,6 +24,60 @@ layout  : map
         <!-- MAP VERSIE 2 -->
         
         <div id="map"></div>
+    <nav role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="#"><li><img src="images/filter_apotheek.png"/>Apotheken <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div> </li></a>
+                        <a href="#"><li><img src="images/filter_bibliotheek.png"/>Bibliotheek <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                        <a href="#"><li><img src="images/filter_bioscoop.png"/>Bioscoop <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                        <a href="#"><li><img src="images/filter_fietsdienstverlening.png"/>Fietsdienstverlening <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                        <a href="#"><li><img src="images/filter_gezondheidscentra.png"/>Gezondheidscentra <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                        <a href="#"><li><img src="images/filter_huisarts.png"/>Huisarts <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                        <a href="#"><li><img src="images/filter_huisartsenwachtpost.png"/>Huisartsenwachtpost <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                        <a href="#"><li><img src="images/filter_speelterrein.png"/>Speelterrein <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                        <a href="#"><li><img src="images/filter_sportcentra.png"/>Sportcentra <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                        <a href="#"><li><img src="images/filter_taxi.png"/>Taxilocaties <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                        <a href="#"><li><img src="images/filter_winkellus.png"/>Winkellussen <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div></li></a>
+                    </ul>
+                </div>
+            </nav>
         
         
         <script type="text/javascript">
@@ -352,7 +406,7 @@ layout  : map
                 };
                 
                 var pin_bibliotheek = {
-                    url: 'css/images/map/images/map/pinpoint_bibliotheek.png',
+                    url: 'css/images/map/pinpoint_bibliotheek.png',
                     size: new google.maps.Size(25, 35),
                     origin: new google.maps.Point(0, 0),
                     anchor: new google.maps.Point(17, 34),
