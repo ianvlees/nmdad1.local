@@ -216,7 +216,6 @@ p {
   color: #dbdada;
 }
 
-
 /* line 131, ../_sass/base/_typography.scss */
 .login-register p > span {
   font-style: italic;
@@ -1805,7 +1804,14 @@ header {
   transition: all 100ms ease-in-out 0s;
 }
 
-/* line 27, ../_sass/layout/_header.scss */
+/* line 26, ../_sass/layout/_header.scss */
+.header-logo:hover {
+  width: 35px;
+  height: 35px;
+  padding: 2.5px;
+}
+
+/* line 32, ../_sass/layout/_header.scss */
 .header-homenav {
   position: fixed;
   background-color: #e2e2e2;
@@ -1816,14 +1822,14 @@ header {
   display: none;
 }
 
-/* line 37, ../_sass/layout/_header.scss */
+/* line 42, ../_sass/layout/_header.scss */
 .header-homenav ul {
   width: 100%;
   padding: 20px;
   margin-top: 60px;
 }
 
-/* line 43, ../_sass/layout/_header.scss */
+/* line 48, ../_sass/layout/_header.scss */
 #logo-desktop {
   width: 60px;
   height: 60px;
@@ -1831,13 +1837,13 @@ header {
   display: none;
 }
 @media (min-width: 992px) {
-  /* line 43, ../_sass/layout/_header.scss */
+  /* line 48, ../_sass/layout/_header.scss */
   #logo-desktop {
     display: block;
   }
 }
 
-/* line 54, ../_sass/layout/_header.scss */
+/* line 59, ../_sass/layout/_header.scss */
 #nav-icon3 {
   width: 40px;
   height: 26px;
@@ -1855,7 +1861,7 @@ header {
   cursor: pointer;
 }
 
-/* line 72, ../_sass/layout/_header.scss */
+/* line 77, ../_sass/layout/_header.scss */
 #nav-icon3 span {
   display: block;
   position: absolute;
@@ -1875,29 +1881,29 @@ header {
   transition: .25s ease-in-out;
 }
 
-/* line 93, ../_sass/layout/_header.scss */
+/* line 98, ../_sass/layout/_header.scss */
 #nav-icon3 span:nth-child(1) {
   top: 0px;
 }
 
-/* line 97, ../_sass/layout/_header.scss */
+/* line 102, ../_sass/layout/_header.scss */
 #nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
   top: 9px;
 }
 
-/* line 101, ../_sass/layout/_header.scss */
+/* line 106, ../_sass/layout/_header.scss */
 #nav-icon3 span:nth-child(4) {
   top: 18px;
 }
 
-/* line 105, ../_sass/layout/_header.scss */
+/* line 110, ../_sass/layout/_header.scss */
 #nav-icon3.open span:nth-child(1) {
   top: 18px;
   width: 0%;
   left: 50%;
 }
 
-/* line 111, ../_sass/layout/_header.scss */
+/* line 116, ../_sass/layout/_header.scss */
 #nav-icon3.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -1905,7 +1911,7 @@ header {
   transform: rotate(45deg);
 }
 
-/* line 118, ../_sass/layout/_header.scss */
+/* line 123, ../_sass/layout/_header.scss */
 #nav-icon3.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -1913,7 +1919,7 @@ header {
   transform: rotate(-45deg);
 }
 
-/* line 125, ../_sass/layout/_header.scss */
+/* line 130, ../_sass/layout/_header.scss */
 #nav-icon3.open span:nth-child(4) {
   top: 18px;
   width: 0%;
