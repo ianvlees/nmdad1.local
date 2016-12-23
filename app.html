@@ -1,0 +1,451 @@
+<div id="mobile-height" class="container grid__column-12">        
+        
+        <!-- MAP VERSIE 2 -->
+        
+        <div id="map"></div>
+        
+        
+        <script type="text/javascript">
+            
+           
+        
+            function initMap() {
+                
+                if (navigator.geolocation) {
+                    try{
+                        navigator.geolocation.getCurrentPosition(function(position) {
+                            var myLocation = {
+                                lat: position.coords.latitude,
+                                lng: position.coords.longitude
+                            };
+                            setPos(myLocation);
+                        });
+                    }
+                    catch (err) {
+                        var myLocation = {
+                            lat: 51.0535,
+                            lng: 3.7304
+                        }
+                    }
+                } else {
+                    var myLocation = {
+                        lat: 51.0535,
+                        lng: 3.7304
+                    }
+                    setPos(myLocation);
+                }
+
+            }
+            
+            function setPos(myLocation) {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: myLocation,
+                    zoom: 15,
+                    scrollwheel: false,
+                    styles: [{"elementType": "geometry","stylers":[{"color": "#f5f5f5"}]},{"elementType": "labels.icon","stylers": [{"visibility": "off"}]}, {"elementType": "labels.text.fill","stylers":[{"color": "#616161"}]}, {"elementType": "labels.text.stroke","stylers":[{"color": "#f5f5f5"}]}, {"featureType": "administrative.land_parcel","elementType": "labels.text.fill","stylers":[{"color": "#bdbdbd"}]}, {"featureType": "poi","elementType": "geometry","stylers":[{"color": "#eeeeee"}]}, {"featureType": "poi","elementType": "labels.text.fill","stylers":[{"color": "#757575"}]}, {"featureType": "poi.park","elementType": "geometry","stylers":[{"color": "#e5e5e5"}]}, {"featureType": "poi.park","elementType": "labels.text.fill","stylers":[{"color": "#9e9e9e"}]}, {"featureType": "road","elementType": "geometry","stylers":[{"color": "#ffffff"}]}, {"featureType": "road.arterial","elementType": "labels.text.fill","stylers":[{"color": "#757575"}]}, {"featureType": "road.highway","elementType": "geometry","stylers":[{"color": "#dadada"}]}, {"featureType": "road.highway","elementType": "labels.text.fill","stylers":[{"color": "#616161"}]}, {"featureType": "road.local","elementType": "labels.text.fill","stylers":[{"color": "#9e9e9e"}]}, {"featureType": "transit.line","elementType": "geometry","stylers":[{"color": "#e5e5e5"}]}, {"featureType": "transit.station","elementType": "geometry","stylers":[{"color": "#eeeeee"}]}, {"featureType": "water","elementType": "geometry","stylers":[{"color": "#c9c9c9"}]}, {"featureType": "water","elementType": "geometry.fill","stylers":[{"color": "#0080ff"},{"lightness": 70},{"weight": 1}]}, {"featureType": "water","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]}]
+                    });
+                
+                
+                // DATASETS
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/apotheken.json", function(json1) {
+                        $.each(json1, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_apotheek
+                            });
+                            marker.setMap(map);
+                            var contentStringApotheek = '<div><h3>Apotheek</h3><br><strong>Naam: </strong>' + this.NAAM + '<br> <strong> Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong> Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowApotheek = new google.maps.InfoWindow({
+                                content: contentStringApotheek
+                            });
+                            marker.addListener('click', function() {
+                                infowindowApotheek.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/bibliotheek.json", function(json2) {
+                        $.each(json2, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_bibliotheek
+                            });
+                            marker.setMap(map);
+                            var contentStringBibliotheek = '<div><h3>Bibliotheek</h3><br><strong>Afdeling: </strong>' + this.ADELING + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowBibliotheek = new google.maps.InfoWindow({
+                                content: contentStringBibliotheek
+                            });
+                            marker.addListener('click', function() {
+                                infowindowBibliotheek.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/bioscopen.json", function(json3) {
+                        $.each(json3, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_bioscoop
+                            });
+                            marker.setMap(map);
+                            var contentStringBioscopen = '<div><h3>Bioscoop</h3><br><strong>Naam: </strong>' + this.Naam + '<br><strong>Adres: </strong>' + this.Ligging + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowBioscopen = new google.maps.InfoWindow({
+                                content: contentStringBioscopen
+                            });
+                            marker.addListener('click', function() {
+                                infowindowBioscopen.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/fietsdienstverlening.json", function(json4) {
+                        $.each(json4, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_fietsdienst
+                            });
+                            marker.setMap(map);
+                            var contentStringFietsdienst = '<div><h3>Fietsdienstverlening</h3><br><strong>Naam: </strong>' + this.Type + '<br><strong>Adres: </strong>' + this.Adres + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowFietsdienst = new google.maps.InfoWindow({
+                                content: contentStringFietsdienst
+                            });
+                            marker.addListener('click', function() {
+                                infowindowFietsdienst.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/gezondheidscentra.json", function(json5) {
+                        $.each(json5, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_gezondhdscentr
+                            });
+                            marker.setMap(map);
+                            var contentStringGezondheids = '<div><h3>Gezondheidscentrum</h3><br><strong>Naam: </strong>' + this.NAAM + '<br><strong>Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong>Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Email: </strong>' + this.EMAIL + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowGezondheids = new google.maps.InfoWindow({
+                                content: contentStringGezondheids
+                            });
+                            marker.addListener('click', function() {
+                                infowindowGezondheids.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/huisartsenwachtposten.json", function(json6) {
+                        $.each(json6, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_huisartswacht
+                            });
+                            marker.setMap(map);
+                            var contentStringHuisartswacht = '<div><h3>Huisarts van wacht</h3><br><strong>Naam: </strong>' + this.NAAM + '<br><strong>Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong>Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowHuisartswacht = new google.maps.InfoWindow({
+                                content: contentStringHuisartswacht
+                            });
+                            marker.addListener('click', function() {
+                                infowindowHuisartswacht.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/sportcentra.json", function(json7) {
+                        $.each(json7, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_sportcentra
+                            });
+                            marker.setMap(map);
+                            var contentStringFietsdienst = '<div><h3>Sportcentrum</h3><br><strong>Naam: </strong>' + this.Naam + '<br><strong>Adres: </strong>' + this.straat + ' ' + this.nr + '<br><strong>Gemeente: </strong>' + this.pstcd + ' ' + this.Gem + '<br><strong>Type: </strong>' + this.type + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowFietsdienst = new google.maps.InfoWindow({
+                                content: contentStringFietsdienst
+                            });
+                            marker.addListener('click', function() {
+                                infowindowFietsdienst.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/taxilocaties.json", function(json8) {
+                        $.each(json8, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_taxi
+                            });
+                            marker.setMap(map);
+                            var contentStringTaxi = '<div><h3>Taxi</h3></div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowTaxi = new google.maps.InfoWindow({
+                                content: contentStringTaxi
+                            });
+                            marker.addListener('click', function() {
+                                infowindowTaxi.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/winkellussen.json", function(json9) {
+                        $.each(json9, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_winkellus
+                            });
+                            marker.setMap(map);
+                            var contentStringWinkellus = '<div><h3>Winkelstraat</h3></div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowWinkellus = new google.maps.InfoWindow({
+                                content: contentStringWinkellus
+                            });
+                            marker.addListener('click', function() {
+                                infowindowWinkellus.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/huisarts.json", function(json0) {
+                        $.each(json0, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_huisarts
+                            });
+                            marker.setMap(map);
+                            var contentStringHuisarts = '<div><h3>Huisarts</h3><br><strong>Naam: </strong>' + this.NAAM + '<br><strong>Adres: </strong>' + this.STRAAT + ' ' + this.HUISNR + '<br><strong>Gemeente: </strong>' + this.POSTCODE + ' ' + this.GEMEENTE + '<br><strong>Telefoon: </strong>' + this.TELEFOON + '<br><strong>Geslacht: </strong>' + this.GESLACHT + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowHuisarts = new google.maps.InfoWindow({
+                                content: contentStringHuisarts
+                            });
+                            marker.addListener('click', function() {
+                                infowindowHuisarts.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                $(document).ready(function() {
+                    $.getJSON("https://ranidevr1.github.io/datasets/speelterreinen.json", function(json10) {
+                        $.each(json10, function(key, data) {
+                            var latLng = new google.maps.LatLng(data.lat, data.lng); 
+                            // Creating a marker and putting it on the map
+                            var marker = new google.maps.Marker({
+                                position: latLng,
+                                title: data.title,
+                                map: map,
+                                icon: pin_speelterrein
+                            });
+                            marker.setMap(map);
+                            var contentStringSpeelterrein = '<div><h3>Speelterrein</h3><br><strong>Plaats: </strong>' + this.naam + '<br><strong>Functies: </strong>' + this.functies + '</div><br>' + '<button type="button"> Check in </button> ';
+                            var infowindowSpeelterrein = new google.maps.InfoWindow({
+                                content: contentStringSpeelterrein
+                            });
+                            marker.addListener('click', function() {
+                                infowindowSpeelterrein.open(map, marker);
+                            });
+                        });
+                    });  
+                }); 
+                
+                
+                // LOCATIE
+                
+                var pinpoint_location = {
+                    url: 'css/images/map/pinpoint_eigenlocatie.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var marker = new google.maps.Marker({
+                    position: myLocation,
+                    map: map,
+                    title: myLocation,
+                    icon: pinpoint_location
+                });
+                
+                
+                // PINPOINTS
+                
+                var pin_apotheek = {
+                    url: 'css/images/map/pinpoint_apotheek.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_bibliotheek = {
+                    url: 'css/images/map/images/map/pinpoint_bibliotheek.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_bioscoop = {
+                    url: 'css/images/map/pinpoint_bioscoop.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_fietsdienst = {
+                    url: 'css/images/map/pinpoint_fietsdienstverlening.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_gezondhdscentr = {
+                    url: 'css/images/map/pinpoint_gezondheidscentra.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_huisarts = {
+                    url: 'css/images/map/pinpoint_huisarts.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_huisartswacht = {
+                    url: 'css/images/map/pinpoint_huisartswachtpost.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_speelterrein = {
+                    url: 'css/images/map/pinpoint_speelterrein.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_sportcentra = {
+                    url: 'css/images/map/pinpoint_sportcentra.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_taxi = {
+                    url: 'css/images/map/pinpoint_taxi.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                var pin_winkellus = {
+                    url: 'css/images/map/pinpoint_winkellus.png',
+                    size: new google.maps.Size(25, 35),
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(17, 34),
+                    scaledSize: new google.maps.Size(25, 35)
+                };
+                
+                
+                // INFOWINDOW
+                
+                var contentStringLocatie = '<div><strong> Jouw locatie </strong></div>';
+                var infowindowLocatie = new google.maps.InfoWindow({
+                    content: contentStringLocatie
+                });
+                marker.addListener('click', function() {
+                    infowindowLocatie.open(map, marker);
+                });
+            
+            }
+            
+            
+            function processResults(results, status, pagination) {
+                if (status !== google.maps.places.PlacesServiceStatus.OK) {
+                    return;
+                } else {
+                    createMarkers(results);
+                }
+            }
+            
+            function createMarkers(places) {
+                var bounds = new google.maps.LatLngBounds();
+            }  
+            
+        </script>
+        
+        
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCF3V7VMO2-AMZ5u4Mi7x3TgbxyMcZRv30&callback=initMap">
+        </script>
+        
+        <!-- EINDE MAP VERSIE 2 -->
+        
+        
+        
+    
+    </div><!-- End of container -->

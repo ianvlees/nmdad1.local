@@ -2348,13 +2348,11 @@ footer {
 
 /* line 1, ../_sass/pages/_profile.scss */
 .profile-circle {
-  width: 50%;
+  width: 90%;
   position: relative;
   margin: auto;
   min-height: 200px;
 }
-
-
 /* line 6, ../_sass/pages/_profile.scss */
 .profile-circle img {
   width: 100%;
@@ -2368,14 +2366,29 @@ footer {
   right: 10%;
   bottom: 0;
 }
+@media (min-width: 600px) {
+  /* line 1, ../_sass/pages/_profile.scss */
+  .profile-circle {
+    width: 60%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  /* line 1, ../_sass/pages/_profile.scss */
+  .profile-circle {
+    width: 50%;
+    max-width: 250px;
+    float: left;
+  }
+}
 
-/* line 21, ../_sass/pages/_profile.scss */
+/* line 30, ../_sass/pages/_profile.scss */
 .profile-list ul, .profile-list li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 26, ../_sass/pages/_profile.scss */
+/* line 35, ../_sass/pages/_profile.scss */
 .profile-list li {
   border-bottom: 1px solid #dedede;
 }
