@@ -1,14 +1,7 @@
-#map-height {
+#app-height {
     overflow: hidden;
     max-width: none;
-}
-
-.app-popup {
-    color: black;
-    
-}
-
-.app-button {
+    .app-button {
         text-transform: capitalize;
         text-align: center;
         padding: 6px;
@@ -26,3 +19,10 @@
         background-color: #564781;
         border-radius: 60px;
     }
+}
+
+.app-popup {
+    color: black;
+    
+}
+

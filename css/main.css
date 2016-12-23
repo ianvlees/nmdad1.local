@@ -2322,18 +2322,12 @@ footer {
 }
 
 /* line 1, ../_sass/pages/_app.scss */
-#map-height {
+#app-height {
   overflow: hidden;
   max-width: none;
 }
-
-/* line 6, ../_sass/pages/_app.scss */
-.app-popup {
-  color: black;
-}
-
-/* line 11, ../_sass/pages/_app.scss */
-.app-button {
+/* line 4, ../_sass/pages/_app.scss */
+#app-height .app-button {
   text-transform: capitalize;
   text-align: center;
   padding: 6px;
@@ -2344,14 +2338,18 @@ footer {
   color: #fff;
   transition: all 100ms ease-in-out 0s;
 }
-
-/* line 22, ../_sass/pages/_app.scss */
-.app-button:hover {
+/* line 15, ../_sass/pages/_app.scss */
+#app-height .app-button:hover {
   border: 2px solid #564781;
   cursor: pointer;
   border: 2px solid #564781;
   background-color: #564781;
   border-radius: 60px;
+}
+
+/* line 24, ../_sass/pages/_app.scss */
+.app-popup {
+  color: black;
 }
 
 /* line 2, ../_sass/pages/_contact.scss */
